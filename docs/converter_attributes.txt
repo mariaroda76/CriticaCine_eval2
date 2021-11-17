@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/2533800/xstream-parse-attributes-and-values-at-the-same-time

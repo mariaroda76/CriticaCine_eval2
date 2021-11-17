@@ -1,6 +1,5 @@
 package com.company;
 
-
 import com.company.Modelos.Critica;
 import com.company.Modelos.Critico;
 import com.company.Modelos.Pelicula;
