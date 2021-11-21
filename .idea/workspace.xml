@@ -4,12 +4,23 @@
     <list default="true" id="9735cadd-0c26-44e9-aca5-02c9ac44dfe5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CriticaCine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CriticaCine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/META-INF/CriticaCine.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Criticas.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Criticas.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.dat" beforeDir="false" afterPath="$PROJECT_DIR$/PeliculasValoradas.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PeliculasValoradas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichPelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichPelicula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerCriticosCompletos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerCriticosCompletos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerPeliculasValoradas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerPeliculasValoradas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaCriticos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaCriticos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaPeliculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaPeliculas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Pelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Pelicula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Rubro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Rubro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +40,17 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TEORIA_DESCARGADA/MANEJO_FICHEROS/kxml2-2.3.0.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16129032" />
   </component>
@@ -52,18 +70,6 @@
       <recent name="C:\Users\Fran\.IdeaIC2019.2\config\scratches\ad_ficheros" />
       <recent name="C:\Users\Fran\Desktop\maria\curso3\AD\PROYECTO_JOKIN_EVAL1\CriticaCine\src\com\company" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="CrearFichCriticas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -141,6 +147,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -151,20 +158,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633542941739</updated>
+      <workItem from="1637484092048" duration="5157000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

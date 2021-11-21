@@ -3,6 +3,7 @@ package com.company;
 import com.company.Modelos.Critica;
 import com.company.Modelos.Critico;
 import com.company.Modelos.Pelicula;
+import com.company.Utils.PelisConverter;
 import com.thoughtworks.xstream.XStream;
 
 import java.io.*;
@@ -266,8 +267,12 @@ public class Main {
             XStream xstream = new XStream();
 
             //cambiar de nombre a las etiquetas XML
-            xstream.alias("ListaPeliculas", ListaPeliculas.class);
-            xstream.alias("DatosPeliculas", Pelicula.class);
+
+            xstream.registerConverter(new PelisConverter());
+            xstream.alias("ListadePeliculas", ListaPeliculas.class);
+            xstream.alias("Pelicula", Pelicula.class);
+            //xstream.useAttributeFor("idPelicula", Integer.class);
+            //xstream.useAttributeFor("rubro",Rubro.class);
 
             //quitar etiqueta lista (atributo de la clase ListaEmpleado)
             xstream.addImplicitCollection(ListaPeliculas.class, "lista");
