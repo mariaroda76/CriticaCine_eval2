@@ -10,7 +10,7 @@ public class CrearFichCriticos {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
         //fichero dat
-        ObjectOutputStream fileCriticosOS = new ObjectOutputStream(new FileOutputStream("Criticos.dat"));
+        ObjectOutputStream fileCriticosOS = new ObjectOutputStream(new FileOutputStream("dats_iniciales\\Criticos.dat"));
 
         int idCriticos[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,17,18,19,20};
         String nombresCriticos[] = {"Antonio José Navarro", "Marcial Cantero", "María Luz Morales", "Juan Piqueras Martínez",

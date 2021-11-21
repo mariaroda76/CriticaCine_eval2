@@ -2,19 +2,20 @@ package com.company.Modelos;
 
 import java.io.Serializable;
 
-public class Critica implements Serializable {
+public class Valoracion implements Serializable {
 
     private int idPelicula;    // código pelicula
     private int idCritico;    // código critico
     private int valoracion;    // valoracion del critico a la pelicula
 
-    public Critica(int idPelicula, int idCritico, int valoracion) {
+    public Valoracion(int idPelicula, int idCritico, int valoracion) {
         this.idPelicula = idPelicula;
         this.idCritico = idCritico;
         this.valoracion = valoracion;
     }
 
-
+    public Valoracion() {
+    }
 
     public int getIdPelicula() {
         return idPelicula;

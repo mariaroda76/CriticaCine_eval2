@@ -2,24 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735cadd-0c26-44e9-aca5-02c9ac44dfe5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Criticas.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Criticas.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.dat" beforeDir="false" afterPath="$PROJECT_DIR$/PeliculasValoradas.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PeliculasValoradas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CriticaCine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CriticaCine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Criticas.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Criticos.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CriticosCompletos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CriticosConValoraciones.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Peliculas.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticas.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichPelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichPelicula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerCriticosCompletos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerCriticosCompletos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerPeliculasValoradas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/LeerPeliculasValoradas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaCriticos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaCriticos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaPeliculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/ListaPeliculas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Pelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Pelicula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Rubro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Rubro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/PelisConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/PelisConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CrearFichCriticas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CrearFichValoraciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CrearFichCriticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CrearFichCriticos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CrearFichPelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CrearFichPelicula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Modelos/Critica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Modelos/Valoracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +48,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TEORIA_DESCARGADA/BDnoSQL/PruebasEmpleYDepart" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16129032" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fran\Desktop\maria\curso3\AD\PROYECTO_JOKIN_EVAL1\CriticaCine\src\com\company\Modelos" />
+      <recent name="C:\Users\Fran\.IdeaIC2019.2\config\scratches\ad_ficheros" />
+      <recent name="C:\Users\Fran\Desktop\maria\curso3\AD\PROYECTO_JOKIN_EVAL1\CriticaCine\src\com\company" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Fran\.IdeaIC2019.2\config\scratches" />
       <recent name="C:\Users\Fran\Desktop\maria\curso3\AD\PROYECTO_JOKIN_EVAL2\CriticaCine\CriticaCine_eval2\src\com\company" />
@@ -65,32 +78,14 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fran\Desktop\maria\curso3\AD\PROYECTO_JOKIN_EVAL1\CriticaCine\src\com\company\Modelos" />
-      <recent name="C:\Users\Fran\.IdeaIC2019.2\config\scratches\ad_ficheros" />
-      <recent name="C:\Users\Fran\Desktop\maria\curso3\AD\PROYECTO_JOKIN_EVAL1\CriticaCine\src\com\company" />
-    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="CrearFichCriticas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.CrearFichCriticas" />
-      <module name="CriticaCine" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CrearFichCriticos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.CrearFichCriticos" />
       <module name="CriticaCine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +98,20 @@
       <module name="CriticaCine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrearFichValoraciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.CrearFichValoraciones" />
+      <module name="CriticaCine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,7 +124,7 @@
       <module name="CriticaCine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +137,7 @@
       <module name="CriticaCine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +149,7 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LeerPeliculasValoradas" />
-        <item itemvalue="Application.CrearFichCriticas" />
+        <item itemvalue="Application.CrearFichValoraciones" />
         <item itemvalue="Application.CrearFichCriticos" />
         <item itemvalue="Application.CrearFichPelicula" />
       </list>
@@ -158,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633542941739</updated>
-      <workItem from="1637484092048" duration="5157000" />
+      <workItem from="1637484092048" duration="23559000" />
     </task>
     <servers />
   </component>

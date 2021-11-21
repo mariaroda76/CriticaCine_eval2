@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="exist-xqj-1.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ConectoresXQJ/exist-xqj-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConectoresXQJ/xqj2-0.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConectoresXQJ/xqjapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

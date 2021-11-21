@@ -36,7 +36,6 @@ public class PelisConverter implements Converter {
             writer.setValue(String.valueOf(pelicula.getValoracionMedia()));
             writer.endNode();
 
-
         }
 
         public Object unmarshal(HierarchicalStreamReader reader, UnmarshallingContext context) {
