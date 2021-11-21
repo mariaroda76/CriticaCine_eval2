@@ -3,26 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9735cadd-0c26-44e9-aca5-02c9ac44dfe5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CriticaCine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CriticaCine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Criticas.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Criticos.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CriticosCompletos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CriticosConValoraciones.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peliculas.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeliculasValoradas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichCriticos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichPelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/CrearFichPelicula.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Modelos/Critica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/PelisConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/PelisConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CrearFichCriticas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CrearFichValoraciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CrearFichCriticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CrearFichCriticos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CrearFichPelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CrearFichPelicula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Modelos/Critica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Modelos/Valoracion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633542941739</updated>
-      <workItem from="1637484092048" duration="23559000" />
+      <workItem from="1637484092048" duration="31186000" />
     </task>
     <servers />
   </component>

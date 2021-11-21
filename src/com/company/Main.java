@@ -56,7 +56,7 @@ public class Main {
             System.out.print("5.) Listar Peliculas\n");
             System.out.print("6.) Valorar pelicula\n");
             System.out.print("7.) --\n");
-            System.out.print("8.) --\n");
+            System.out.print("8.) crear pelicula xml\n");
             System.out.print("0.) Exit\n");
             System.out.print("\nSelecciona una opcion valida: ");
 
@@ -76,29 +76,45 @@ public class Main {
                 case 2:
                     Pelicula pelicula = new Pelicula();
                     pelicula.setIdPelicula(450);
+                    pelicula.setRubro(Rubro.Comedia);
                     pelicula.setNombre("Test");
+                    pelicula.setAnyo(1942);
                     pelicula.setDuracion(20);
+                    pelicula.setDescripcion("bosefhwpe");
+                    pelicula.setValoracionMedia(0);
 
                     insertarPelicula(pelicula);
                     break;
                 case 3:
-                    listarPeliculas();
+
                     break;
                 case 4:
 
                     break;
                 case 5:
-
+                    listarPeliculas();
 
                     break;
                 case 6:
 
                     break;
                 case 7:
+                    
 
                     break;
 
                 case 8:
+
+                    Pelicula pelicula2 = new Pelicula();
+                    pelicula2.setIdPelicula(450);
+                    pelicula2.setRubro(Rubro.Comedia);
+                    pelicula2.setNombre("Test");
+                    pelicula2.setAnyo(1942);
+                    pelicula2.setDuracion(20);
+                    pelicula2.setDescripcion("bosefhwpe");
+                    pelicula2.setValoracionMedia(0);
+
+                    crearPeliculaTempXML(pelicula2);
 
                     break;
                 case 0:
@@ -532,7 +548,6 @@ public class Main {
 
     }
 
-
     public static Collection conectar() {
 
         try {
@@ -561,37 +576,63 @@ public class Main {
         return null;
     }
 
-    private static void insertarPelicula(Pelicula pelicula) {
+    private static void insertarPelicula(Pelicula pelicula) throws IOException, ClassNotFoundException {
 
-        String nuevaPeli = "<Pelicula idPelicula = " + "\"" + pelicula.getIdPelicula() +"\"" +
-                " rubro = " + "\"" + pelicula.getRubro() + "\"" + ">"+pelicula.getNombre()+" <anyo> " + pelicula.getAnyo() + " </anyo > " +
-                "<duracion > " + pelicula.getDuracion() + "</duracion > " +
-                "<descripcion > " + pelicula.getDescripcion() + "</descripcion >" +
-                "<valoracionMedia > " + pelicula.getValoracionMedia() + "</valoracionMedia > </Pelicula >";
-
-
-        String nuevaPeli2 ="<Pelicula idPelicula=\"500\" rubro=\"Sci_Fi\">Alien:El octavo pasajero<anyo>1979</anyo><duracion>117</duracion><descripcion>De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmision de una forma de vida desconocida, procedente de un planeta cercano aparentemente deshabitado.</descripcion><valoracionMedia>0</valoracionMedia></Pelicula>";
-
-
+        crearPeliculaTempXML(pelicula);
 
         col = conectar();
 
         if (col != null) {
             try {
                 XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
-                System.out.printf("Inserto: %s \n", nuevaPeli);
-                //Consulta para insertar --> update insert ... into
-                ResourceSet result = servicio.query("update insert " + nuevaPeli + " into /Peliculas");
+                String query = "for $pel in doc('file:///C:/Users/Fran/Desktop/maria/curso3/AD/PROYECTO_JOKIN_EVAL2/CriticaCine/CriticaCine_eval2/temp/Temp.xml') /Peliculas/Pelicula return update insert $pel into /Peliculas";
+                ResourceSet result = servicio.query(query);
                 col.close(); //borramos
                 System.out.println("Pelicula Insertada.");
+
             } catch (Exception e) {
                 System.out.println("Error al insertar Pelicula.");
                 e.printStackTrace();
+
             }
         } else {
             System.out.println("Error en la conexión. Comprueba datos.");
+
         }
     }
+
+
+    private static void crearPeliculaTempXML(Pelicula pelicula) throws IOException, ClassNotFoundException {
+
+        ListaPeliculas listaPelis = new ListaPeliculas();
+        listaPelis.add(pelicula);
+
+        try {
+            XStream xstream = new XStream();
+
+            //cambiar de nombre a las etiquetas XML
+
+            xstream.registerConverter(new PelisConverter());
+            xstream.alias("Peliculas", ListaPeliculas.class);
+            xstream.alias("Pelicula", Pelicula.class);
+
+            xstream.addImplicitCollection(ListaPeliculas.class, "lista");
+
+
+            //Insrtar los objetos en el XML
+            xstream.toXML(listaPelis, new FileOutputStream("temp\\Temp.xml"));
+            System.out.println("Creado fichero XML....");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    private static void modificarPelicula(int dep) {
+
+    }
+
 
     private static void listarPeliculas() {
         if (conectar() != null) {
@@ -620,6 +661,67 @@ public class Main {
             System.out.println("Error en la conexión. Comprueba datos.");
         }
 
+    }
+
+
+
+
+
+
+
+
+
+    private static void insertarPeliculaKK(Pelicula pelicula) {
+
+        String nuevaPeli = "<Pelicula idPelicula = " + "\"" + pelicula.getIdPelicula() + "\"" +
+                " rubro = " + "\"" + pelicula.getRubro() + "\"" + ">" + pelicula.getNombre() + " <anyo> " + pelicula.getAnyo() + " </anyo > " +
+                "<duracion > " + pelicula.getDuracion() + "</duracion > " +
+                "<descripcion > " + pelicula.getDescripcion() + "</descripcion >" +
+                "<valoracionMedia > " + pelicula.getValoracionMedia() + "</valoracionMedia > </Pelicula >";
+
+
+        String nuevaPeli2 = "<Pelicula idPelicula=\"500\" rubro=\"Sci_Fi\">Alien:El octavo pasajero<anyo>1979</anyo><duracion>117</duracion><descripcion>De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmision de una forma de vida desconocida, procedente de un planeta cercano aparentemente deshabitado.</descripcion><valoracionMedia>0</valoracionMedia></Pelicula>";
+
+
+        col = conectar();
+
+        if (col != null) {
+            try {
+                XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                System.out.printf("Inserto: %s \n", nuevaPeli);
+                //Consulta para insertar --> update insert ... into
+                ResourceSet result = servicio.query("update insert " + nuevaPeli + " into /Peliculas");
+                col.close(); //borramos
+                System.out.println("Pelicula Insertada.");
+            } catch (Exception e) {
+                System.out.println("Error al insertar Pelicula.");
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+    }
+
+    private static void crearXMLTemp() throws XMLDBException {
+
+        File archivo = new File("temp\\Temp.xml");
+        if (!archivo.canRead())
+            System.out.println("ERROR AL LEER EL FICHERO");
+        else {
+            Resource nuevoRecurso = col.createResource(archivo.getName(),
+                    "XMLResource");
+            nuevoRecurso.setContent(archivo); //Asignamos el archivo
+            col.storeResource(nuevoRecurso); //Lo almacenamos en la colección
+        }
+    }
+
+    private static void borrarXMLTemp() {
+        try {
+            Resource recursoBorrar = col.getResource("temp\\Temp.xml");
+            col.removeResource(recursoBorrar);
+        } catch (NullPointerException | XMLDBException e) {
+            System.out.println("El recurso no se puede borrar porque no se encuentra.");
+        }
     }
 
 }
