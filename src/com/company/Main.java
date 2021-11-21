@@ -7,11 +7,16 @@ import com.company.Utils.CriticoConverter;
 import com.company.Utils.PelisConverter;
 import com.company.Utils.ValoracionConverter;
 import com.thoughtworks.xstream.XStream;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 import org.xmldb.api.DatabaseManager;
 import org.xmldb.api.base.*;
 import org.xmldb.api.base.Collection;
 import org.xmldb.api.modules.XPathQueryService;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -86,6 +91,14 @@ public class Main {
                     insertarPelicula(pelicula);
                     break;
                 case 3:
+                    listarPeliculas();
+                    int idP;
+                    System.out.println("\nSelecciona una Pelicula por su id\n");
+                    idP = input.nextInt();
+                    modificarGeneral(idP,"Peliculas","Pelicula","idPelicula","anyo", (Integer) 1952);
+
+
+
 
                     break;
                 case 4:
@@ -99,7 +112,7 @@ public class Main {
 
                     break;
                 case 7:
-                    
+
 
                     break;
 
@@ -402,6 +415,7 @@ public class Main {
     }
 
 
+    //xml metodos
     private static void crearColeccionPeliculasXML() throws IOException, ClassNotFoundException {
 
         //Abrir flujo de entrada de datos para leer peliculasValoradas .dat
@@ -548,6 +562,34 @@ public class Main {
 
     }
 
+    private static void crearPeliculaTempXML(Pelicula pelicula) throws IOException, ClassNotFoundException {
+
+        ListaPeliculas listaPelis = new ListaPeliculas();
+        listaPelis.add(pelicula);
+
+        try {
+            XStream xstream = new XStream();
+
+            //cambiar de nombre a las etiquetas XML
+
+            xstream.registerConverter(new PelisConverter());
+            xstream.alias("Peliculas", ListaPeliculas.class);
+            xstream.alias("Pelicula", Pelicula.class);
+
+            xstream.addImplicitCollection(ListaPeliculas.class, "lista");
+
+
+            //Insrtar los objetos en el XML
+            xstream.toXML(listaPelis, new FileOutputStream("temp\\Temp.xml"));
+            System.out.println("Creado fichero XML....");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    //exist metodos
     public static Collection conectar() {
 
         try {
@@ -602,33 +644,6 @@ public class Main {
     }
 
 
-    private static void crearPeliculaTempXML(Pelicula pelicula) throws IOException, ClassNotFoundException {
-
-        ListaPeliculas listaPelis = new ListaPeliculas();
-        listaPelis.add(pelicula);
-
-        try {
-            XStream xstream = new XStream();
-
-            //cambiar de nombre a las etiquetas XML
-
-            xstream.registerConverter(new PelisConverter());
-            xstream.alias("Peliculas", ListaPeliculas.class);
-            xstream.alias("Pelicula", Pelicula.class);
-
-            xstream.addImplicitCollection(ListaPeliculas.class, "lista");
-
-
-            //Insrtar los objetos en el XML
-            xstream.toXML(listaPelis, new FileOutputStream("temp\\Temp.xml"));
-            System.out.println("Creado fichero XML....");
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-
     private static void modificarPelicula(int dep) {
 
     }
@@ -668,7 +683,7 @@ public class Main {
 
 
 
-
+    //basuras
 
 
     private static void insertarPeliculaKK(Pelicula pelicula) {
@@ -722,6 +737,59 @@ public class Main {
         } catch (NullPointerException | XMLDBException e) {
             System.out.println("El recurso no se puede borrar porque no se encuentra.");
         }
+    }
+
+    private static void modificarGeneral(int id, String tabla, String dato, String idStr, String datoACambiar, Object nuevodato) {
+
+        if (comprobarGeneral(id, tabla, dato, idStr)) {
+
+            if (conectar() != null) {
+                try {
+                    System.out.printf("Actualizo "+dato+": %s\n", id);
+                    XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                    //Consulta para modificar/actualizar un valor --> update value
+                    ResourceSet result = servicio.query(
+                            "update value /"+tabla+"/"+dato+"["+idStr+"=" + id + "]/"+datoACambiar+" with data('"+nuevodato+"') ");
+
+                    col.close();
+                    System.out.println(dato + " actualizado.");
+                } catch (Exception e) {
+                    System.out.println("Error al actualizar.");
+                    e.printStackTrace();
+                }
+            } else {
+                System.out.println("Error en la conexión. Comprueba datos.");
+            }
+        } else {
+            System.out.println("El departamento NO EXISTE.");
+        }
+    }
+
+    private static boolean comprobarGeneral(int id, String tabla, String dato, String idStr) {
+        //Devuelve true si el lo que sea existe
+        if (conectar() != null) {
+            try {
+                XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                //Consulta para consultar la información de un departamento
+                ResourceSet result = servicio.query("/"+tabla+"/"+dato+"["+idStr+"=" + id + "]");
+                ResourceIterator i;
+                i = result.getIterator();
+                col.close();
+                if (!i.hasMoreResources()) {
+                    return false;
+                } else {
+                    return true;
+                }
+            } catch (Exception e) {
+                System.out.println("Error al consultar.");
+                // e.printStackTrace();
+            }
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+
+        return false;
+
     }
 
 }
