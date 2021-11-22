@@ -106,6 +106,14 @@ public class Main {
 
                     break;
                 case 4:
+                    // listarPeliculas();
+                    String idP2;
+                    System.out.println("\nSelecciona una Pelicula por su id\n");
+
+                    //controlar que le id es correcto
+                    idP2 = input.next();
+                    borrarrGeneral(idP2,"Peliculas","Pelicula","@idPelicula");
+
 
                     break;
                 case 5:
@@ -647,11 +655,87 @@ public class Main {
         }
     }
 
+    private static void modificarGeneral(String id, String tabla, String dato, String idStr, String datoACambiar, Object nuevodato) {
 
-    private static void modificarPelicula(int dep) {
+        if (comprobarGeneral(id, tabla, dato, idStr)) {
+
+            if (conectar() != null) {
+                try {
+                    System.out.printf("Actualizo "+dato+": %s\n", id);
+                    XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                    //Consulta para modificar/actualizar un valor --> update value
+                    String consulta1 ="update value /"+tabla+"/"+dato+"["+idStr+"= '" + id + "']/"+datoACambiar+" with data('"+nuevodato+"') " ;
+                    ResourceSet result = servicio.query(
+                            consulta1);
+
+                    col.close();
+                    System.out.println(dato + " actualizado.");
+                } catch (Exception e) {
+                    System.out.println("Error al actualizar.");
+                    e.printStackTrace();
+                }
+            } else {
+                System.out.println("Error en la conexión. Comprueba datos.");
+            }
+        } else {
+            System.out.println("El " + dato + " NO EXISTE.");
+        }
+    }
+
+    private static void borrarrGeneral(String id, String tabla, String dato, String idStr)  {
+
+        if (comprobarGeneral(id, tabla, dato, idStr)) {
+            if (conectar() != null) {
+                try {
+                    System.out.printf("Borro el " +dato+ " : %s\n", id);
+                    XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                    //Consulta para borrar  --> update delete
+                    String consulta2 ="update delete /"+tabla+"/"+dato+"["+idStr+"= '" + id + "']" ;
+                    ResourceSet result = servicio.query(
+                            consulta2);
+                    col.close();
+                    System.out.println(dato + " borrado.");
+                } catch (Exception e) {
+                    System.out.println("Error al borrar.");
+                    e.printStackTrace();
+                }
+            } else {
+                System.out.println("Error en la conexión. Comprueba datos.");
+            }
+        } else {
+            System.out.println("El" + dato + "NO EXISTE.");
+        }
 
     }
 
+
+    private static boolean comprobarGeneral(String id, String tabla, String dato, String idStr) {
+        //Devuelve true si el lo que sea existe
+        if (conectar() != null) {
+            try {
+                XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                //Consulta para consultar la información de un departamento
+                String consulta = "/"+tabla+"/"+dato+"["+idStr+"='" + id + "']";
+                ResourceSet result = servicio.query(consulta);
+                ResourceIterator i;
+                i = result.getIterator();
+                col.close();
+                if (!i.hasMoreResources()) {
+                    return false;
+                } else {
+                    return true;
+                }
+            } catch (Exception e) {
+                System.out.println("Error al consultar.");
+                // e.printStackTrace();
+            }
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+
+        return false;
+
+    }
 
     private static void listarPeliculas() {
         if (conectar() != null) {
@@ -743,60 +827,7 @@ public class Main {
         }
     }
 
-    private static void modificarGeneral(String id, String tabla, String dato, String idStr, String datoACambiar, Object nuevodato) {
 
-        if (comprobarGeneral(id, tabla, dato, idStr)) {
-
-            if (conectar() != null) {
-                try {
-                    System.out.printf("Actualizo "+dato+": %s\n", id);
-                    XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
-                    //Consulta para modificar/actualizar un valor --> update value
-                    String consulta1 ="update value /"+tabla+"/"+dato+"["+idStr+"= '" + id + "']/"+datoACambiar+" with data('"+nuevodato+"') " ;
-                    ResourceSet result = servicio.query(
-                            consulta1);
-
-                    col.close();
-                    System.out.println(dato + " actualizado.");
-                } catch (Exception e) {
-                    System.out.println("Error al actualizar.");
-                    e.printStackTrace();
-                }
-            } else {
-                System.out.println("Error en la conexión. Comprueba datos.");
-            }
-        } else {
-            System.out.println("El departamento NO EXISTE.");
-        }
-    }
-
-    private static boolean comprobarGeneral(String id, String tabla, String dato, String idStr) {
-        //Devuelve true si el lo que sea existe
-        if (conectar() != null) {
-            try {
-                XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
-                //Consulta para consultar la información de un departamento
-                String consulta = "/"+tabla+"/"+dato+"["+idStr+"='" + id + "']";
-                ResourceSet result = servicio.query(consulta);
-                ResourceIterator i;
-                i = result.getIterator();
-                col.close();
-                if (!i.hasMoreResources()) {
-                    return false;
-                } else {
-                    return true;
-                }
-            } catch (Exception e) {
-                System.out.println("Error al consultar.");
-                // e.printStackTrace();
-            }
-        } else {
-            System.out.println("Error en la conexión. Comprueba datos.");
-        }
-
-        return false;
-
-    }
 
 }
 
