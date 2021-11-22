@@ -79,6 +79,7 @@ public class Main {
                     crearColeccionValoracionXML();
                     break;
                 case 2:
+                    //debo controlar que nigun dato quede vacio si no no forma bien el xml
                     Pelicula pelicula = new Pelicula();
                     pelicula.setIdPelicula(450);
                     pelicula.setRubro(Rubro.Comedia);
@@ -91,12 +92,15 @@ public class Main {
                     insertarPelicula(pelicula);
                     break;
                 case 3:
-                    listarPeliculas();
-                    int idP;
+                   // listarPeliculas();
+                    String idP;
                     System.out.println("\nSelecciona una Pelicula por su id\n");
-                    idP = input.nextInt();
-                    modificarGeneral(idP,"Peliculas","Pelicula","idPelicula","anyo", (Integer) 1952);
 
+                    //controlar que le id es correcto
+                    idP = input.next();
+                    //modificarGeneral(idP,"Peliculas","Pelicula","idPelicula","anyo", (Integer) 1952);
+                    //modificar nombre de la pelicula
+                    modificarGeneral(idP,"Peliculas","Pelicula","@idPelicula","nombre", "nuevonombre");
 
 
 
@@ -739,7 +743,7 @@ public class Main {
         }
     }
 
-    private static void modificarGeneral(int id, String tabla, String dato, String idStr, String datoACambiar, Object nuevodato) {
+    private static void modificarGeneral(String id, String tabla, String dato, String idStr, String datoACambiar, Object nuevodato) {
 
         if (comprobarGeneral(id, tabla, dato, idStr)) {
 
@@ -748,8 +752,9 @@ public class Main {
                     System.out.printf("Actualizo "+dato+": %s\n", id);
                     XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
                     //Consulta para modificar/actualizar un valor --> update value
+                    String consulta1 ="update value /"+tabla+"/"+dato+"["+idStr+"= '" + id + "']/"+datoACambiar+" with data('"+nuevodato+"') " ;
                     ResourceSet result = servicio.query(
-                            "update value /"+tabla+"/"+dato+"["+idStr+"=" + id + "]/"+datoACambiar+" with data('"+nuevodato+"') ");
+                            consulta1);
 
                     col.close();
                     System.out.println(dato + " actualizado.");
@@ -765,13 +770,14 @@ public class Main {
         }
     }
 
-    private static boolean comprobarGeneral(int id, String tabla, String dato, String idStr) {
+    private static boolean comprobarGeneral(String id, String tabla, String dato, String idStr) {
         //Devuelve true si el lo que sea existe
         if (conectar() != null) {
             try {
                 XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
                 //Consulta para consultar la información de un departamento
-                ResourceSet result = servicio.query("/"+tabla+"/"+dato+"["+idStr+"=" + id + "]");
+                String consulta = "/"+tabla+"/"+dato+"["+idStr+"='" + id + "']";
+                ResourceSet result = servicio.query(consulta);
                 ResourceIterator i;
                 i = result.getIterator();
                 col.close();

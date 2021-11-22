@@ -18,7 +18,12 @@ public class PelisConverter implements Converter {
 
             writer.addAttribute("idPelicula", String.valueOf( pelicula.getIdPelicula()));
             writer.addAttribute("rubro", pelicula.getRubro().toString());
+            //writer.setValue(pelicula.getNombre());
+
+
+            writer.startNode("nombre");
             writer.setValue(pelicula.getNombre());
+            writer.endNode();
 
             writer.startNode("anyo");
             writer.setValue(String.valueOf(pelicula.getAnyo()));
@@ -40,9 +45,13 @@ public class PelisConverter implements Converter {
 
         public Object unmarshal(HierarchicalStreamReader reader, UnmarshallingContext context) {
             Pelicula pelicula = new Pelicula();
-            pelicula.setNombre(reader.getValue());
+            //pelicula.setNombre(reader.getValue());
             pelicula.setIdPelicula(Integer.parseInt(reader.getAttribute("idPelicula")));
             pelicula.setRubro(Rubro.valueOf(reader.getAttribute("rubro")));
+
+            reader.moveDown();
+            pelicula.setNombre(reader.getValue());
+            reader.moveUp();
 
             reader.moveDown();
             pelicula.setAnyo(Integer.parseInt(reader.getValue()));

@@ -1,5 +1,7 @@
 <Peliculas>
-  <Pelicula idPelicula="450" rubro="Comedia">Test<anyo>1942</anyo>
+  <Pelicula idPelicula="450" rubro="Comedia">
+    <nombre>Test</nombre>
+    <anyo>1942</anyo>
     <duracion>20</duracion>
     <descripcion>bosefhwpe</descripcion>
     <valoracionMedia>0</valoracionMedia>
