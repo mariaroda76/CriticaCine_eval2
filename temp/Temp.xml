@@ -1,9 +1,9 @@
 <Peliculas>
-  <Pelicula idPelicula="450" rubro="Comedia">
-    <nombre>Test</nombre>
-    <anyo>1942</anyo>
-    <duracion>20</duracion>
-    <descripcion>bosefhwpe</descripcion>
+  <Pelicula idPelicula="211" rubro="Biografia">
+    <nombre>nueva</nombre>
+    <anyo>1952</anyo>
+    <duracion>180</duracion>
+    <descripcion>bla nladecmreijve verog</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
 </Peliculas>
