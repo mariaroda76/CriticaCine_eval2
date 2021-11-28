@@ -1,11 +1,13 @@
 package com.company.Modelos;
 
 import com.company.Rubro;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
+@XStreamAlias("Pelicula")
 public class Pelicula implements Serializable {
 
     private int idPelicula;
@@ -15,7 +17,7 @@ public class Pelicula implements Serializable {
     private int duracion;
     private String descripcion;
     private int valoracionMedia;
-   // private int idDirector;
+    // private int idDirector;
 
 
     public Pelicula(int idPelicula, String nombre, int anyo, Rubro rubro, int duracion, String descripcion, int valoracionMedia) {
@@ -31,7 +33,7 @@ public class Pelicula implements Serializable {
     public Pelicula() {
     }
 
-    public Pelicula(int idPelicula, int anyo, int duracion,  int valoracionMedia) {
+    public Pelicula(int idPelicula, int anyo, int duracion, int valoracionMedia) {
         this.idPelicula = idPelicula;
         this.anyo = anyo;
         this.duracion = duracion;
@@ -104,18 +106,18 @@ public class Pelicula implements Serializable {
         this.valoracionMedia = valoracionMedia;
     }
 
-    public void imprimir()
-    {
-        System.out.println( "ID: "+ idPelicula +". "+ nombre + " Año de estreno: " +  anyo +
-                "\tRubro: " + rubro.name() + "Duracion: " + duracion +
-                "\t Descripcion: "+ splitStringBySize(descripcion,50));
+    public void imprimir() {
+        System.out.println("ID: " + idPelicula + ". " + nombre + " Año de estreno: " + anyo +
+                "\nGenero: " + rubro.name() + "Duracion: " + duracion +
+                "\nValoracion Actual: " + valoracionMedia +
+                "\nDescripcion: " + descripcion) ;
 
     }
 
 
-    public void imprimirMedias (){
+    public void imprimirMedias() {
 
-        System.out.println("ID: "+ idPelicula +". "+ nombre + " Valoracion Media: " +  valoracionMedia);
+        System.out.println("ID: " + idPelicula + ". " + nombre + " Valoracion Media: " + valoracionMedia);
 
 
     }

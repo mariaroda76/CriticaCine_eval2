@@ -1,9 +1,9 @@
 <Peliculas>
-  <Pelicula idPelicula="211" rubro="Biografia">
-    <nombre>nueva</nombre>
-    <anyo>1952</anyo>
-    <duracion>180</duracion>
-    <descripcion>bla nladecmreijve verog</descripcion>
+  <Pelicula idPelicula="0" rubro="Aventura">
+    <nombre>test</nombre>
+    <anyo>2010</anyo>
+    <duracion>150</duracion>
+    <descripcion>descrip</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
 </Peliculas>

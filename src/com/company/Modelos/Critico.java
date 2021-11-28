@@ -1,7 +1,10 @@
 package com.company.Modelos;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import java.io.Serializable;
 
+@XStreamAlias("Critico")
 public class Critico implements Serializable {
 
     private int idCritico;

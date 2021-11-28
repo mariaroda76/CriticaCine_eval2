@@ -1,7 +1,10 @@
 package com.company.Modelos;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import java.io.Serializable;
 
+@XStreamAlias("Valoracion")
 public class Valoracion implements Serializable {
 
     private int idPelicula;    // código pelicula

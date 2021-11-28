@@ -8,6 +8,8 @@ import com.thoughtworks.xstream.converters.UnmarshallingContext;
 import com.thoughtworks.xstream.io.HierarchicalStreamReader;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 
+import java.io.InputStream;
+
 public class PelisConverter implements Converter {
 
 
@@ -75,6 +77,8 @@ public class PelisConverter implements Converter {
         public boolean canConvert(Class clazz) {
             return clazz.equals(Pelicula.class);
         }
+
+
 
     }
     
