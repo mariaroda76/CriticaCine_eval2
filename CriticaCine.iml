@@ -28,5 +28,6 @@
     <orderEntry type="library" exported="" name="_xmlrpc-server-3.1.1" level="project" />
     <orderEntry type="library" exported="" name="exist-xqj-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="jxl-2.6.12" level="project" />
   </component>
 </module>

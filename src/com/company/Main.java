@@ -4,6 +4,7 @@ import com.company.Modelos.Valoracion;
 import com.company.Modelos.Critico;
 import com.company.Modelos.Pelicula;
 import com.company.Utils.CriticoConverter;
+import com.company.Utils.ExcelUtils;
 import com.company.Utils.PelisConverter;
 import com.company.Utils.ValoracionConverter;
 import com.thoughtworks.xstream.XStream;
@@ -54,7 +55,7 @@ public class Main {
             System.out.print("5.) Listar Todas Peliculas\n");
             System.out.print("6.) Valorar pelicula\n");
             System.out.print("7.) Consultar una Pelicula por ID\n");
-            System.out.print("8.) TEST MARIA\n");
+            System.out.print("8.) Peliculas a Excel>> NO FUNCIONA HELP!!!!!!\n");
             System.out.print("0.) Exit\n");
             System.out.print("\nSelecciona una opcion valida: ");
 
@@ -199,7 +200,7 @@ public class Main {
                     break;
 
                 case "8":
-
+                    peliculasAExcel();
 
                     break;
                 case "0":
@@ -661,7 +662,7 @@ public class Main {
     }
 
 
-    //exist metodos
+    //exist metodos ppales del menu
     public static Collection conectar() {
 
         try {
@@ -766,6 +767,218 @@ public class Main {
 
     }
 
+    public static void tablaPeliculas() {
+        if (conectar() != null) {
+            try {
+                System.out.printf("%-5s%-45s%-15s%-10s%-15s%-10s%-100s\n", "Id", "Nombre", "Valoracion", "Año", "Género", "Duración", "Descripcion");
+                XPathQueryService servicio;
+                servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                //Preparamos la consulta
+                ResourceSet result = servicio.query("for $peli in /Peliculas/Pelicula return $peli");
+                // recorrer los datos del recurso.
+                ResourceIterator i;
+                i = result.getIterator();
+                if (!i.hasMoreResources()) {
+                    System.out.println(" LA CONSULTA NO DEVUELVE NADA O ESTÁ MAL ESCRITA");
+                }
+                while (i.hasMoreResources()) {
+                    Resource r = i.nextResource();
+                    try {
+                        XStream xstream = new XStream(new DomDriver());
+                        xstream.registerConverter(new PelisConverter());
+                        //cambiar de nombre a las etiquetas XML
+                        xstream.alias("Pelicula", Pelicula.class);
+                        //Insrtar los objetos en el XML
+                        Pelicula mipeliTemp = (Pelicula) xstream.fromXML(r.getContent().toString());
+
+                        System.out.println("--------------------------------------------");
+
+                        System.out.printf("%-5s%-45s%-15s%-10s%-15s%-10s%-100s\n", mipeliTemp.getIdPelicula(), mipeliTemp.getNombre(), mipeliTemp.getValoracionMedia(), mipeliTemp.getAnyo(), mipeliTemp.getRubro(), mipeliTemp.getDuracion(), mipeliTemp.getDescripcion());
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                col.close();
+            } catch (XMLDBException e) {
+                System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+
+    }
+
+    public static String valorarPeli(String datoValoracion) {
+
+        String leido = "";
+        boolean fallido = true;
+        Scanner input = new Scanner(System.in);
+
+        while (fallido) {
+            System.out.println("Ingresa Valoracion para la Pelicula:");
+            Scanner scan = new Scanner(System.in);
+            if (scan.hasNextInt()) {
+                int x = scan.nextInt();
+                if (x >= 1 && x <= 10) {
+                    leido = String.valueOf(x);
+                    fallido = false;
+                } else {
+                    System.out.println("LA VALORACION DEBE ESTAR ENTRE 1 Y 10");
+                }
+            } else {
+                System.out.println("DATO INTRODUCIDO NO VALIDO");
+                fallido = true;
+            }
+
+        }
+        fallido = true;
+        //si obtengo VALORACION
+
+        fallido = false;
+        return leido;
+    }
+
+    public static void devolverPeliorId(String id) {
+        Pelicula peli = new Pelicula();
+
+        if (conectar() != null) {
+            try {
+                XPathQueryService servicio;
+                servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                //Preparamos la consulta
+                //"for $peli in /Peliculas/Pelicula where $peli/@idPelicula= " + id + " return <a> {$peli/@idPelicula} </a>"
+                ResourceSet result = servicio.query("for $peli in /Peliculas/Pelicula where $peli/@idPelicula= " + id + " return $peli");
+                // recorrer los datos del recurso.
+                ResourceIterator i;
+                i = result.getIterator();
+                if (!i.hasMoreResources()) {
+                    System.out.println(" LA CONSULTA NO DEVUELVE NADA O ESTÁ MAL ESCRITA");
+                }
+                while (i.hasMoreResources()) {
+                    Resource r = i.nextResource();
+                    try {
+                        XStream xstream = new XStream(new DomDriver());
+                        xstream.registerConverter(new PelisConverter());
+                        //cambiar de nombre a las etiquetas XML
+                        xstream.alias("Pelicula", Pelicula.class);
+                        //Insrtar los objetos en el XML
+                        peli = (Pelicula) xstream.fromXML(r.getContent().toString());
+                        peli.imprimir();
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                col.close();
+            } catch (XMLDBException e) {
+                System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+
+    }
+
+
+    public static void peliculasAExcel() {
+        if (conectar() != null) {
+            try {
+                String[] header = new String[]{"Id", "Nombre", "Valoracion", "Año", "Género", "Duración", "Descripcion"};
+                int totalPelis = cantItems("Peliculas", "Pelicula");
+                String[][] arr = new String[totalPelis][7];
+
+                XPathQueryService servicio;
+                servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                //Preparamos la consulta
+                ResourceSet result = servicio.query("for $peli in /Peliculas/Pelicula return $peli");
+                // recorrer los datos del recurso.
+                ResourceIterator i;
+
+                i = result.getIterator();
+                if (!i.hasMoreResources()) {
+                    System.out.println(" LA CONSULTA NO DEVUELVE NADA O ESTÁ MAL ESCRITA");
+                }
+                int pos = 0;
+
+                while (i.hasMoreResources()) {
+                    Resource r = i.nextResource();
+                    try {
+                        XStream xstream = new XStream(new DomDriver());
+                        xstream.registerConverter(new PelisConverter());
+                        //cambiar de nombre a las etiquetas XML
+                        xstream.alias("Pelicula", Pelicula.class);
+                        //Insrtar los objetos en el XML
+                        Pelicula mipeliTemp = (Pelicula) xstream.fromXML(r.getContent().toString());
+
+                        arr[pos] = new String[]{
+                                String.valueOf(mipeliTemp.getIdPelicula()),
+                                String.valueOf(mipeliTemp.getNombre()),
+                                String.valueOf(mipeliTemp.getValoracionMedia()),
+                                String.valueOf(mipeliTemp.getAnyo()),
+                                String.valueOf(mipeliTemp.getRubro()),
+                                String.valueOf(mipeliTemp.getDuracion()),
+                                String.valueOf(mipeliTemp.getDescripcion())};
+
+
+                            /*
+                        arr[pos][0] = String.valueOf(mipeliTemp.getIdPelicula());
+                        arr[pos][1] = mipeliTemp.getNombre();
+                        arr[pos][2] = String.valueOf(mipeliTemp.getValoracionMedia());
+                        arr[pos][3] = String.valueOf(mipeliTemp.getAnyo());
+                        arr[pos][4] = String.valueOf(mipeliTemp.getRubro());
+                        arr[pos][5] = String.valueOf(mipeliTemp.getDuracion());
+                        arr[pos][6] = mipeliTemp.getDescripcion();*/
+
+                        pos = pos + 1;
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                ExcelUtils.writeExcelFrom2DList(arr, header, "ExportsDePrograma/dat.xls", "first", 2);
+                col.close();
+            } catch (XMLDBException e) {
+                System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
+                e.printStackTrace();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+
+    }
+
+
+    //metodos auxiliares
+    public static void resetBDD(File archivo) throws XMLDBException {
+        if (conectar() != null) {
+            try {
+                Resource recursoBorrar = col.getResource(archivo.getName());
+                col.removeResource(recursoBorrar);
+            } catch (NullPointerException | XMLDBException e) {
+                System.out.println("EL RECURSO NO SE PUEDE BORRAR PORUQE NO SE ENCUENTRA.");
+            }
+
+
+            if (!archivo.canRead())
+                System.out.println("ERROR AL LEER EL FICHERO");
+            else {
+                Resource nuevoRecurso = col.createResource(archivo.getName(),
+                        "XMLResource");
+                nuevoRecurso.setContent(archivo); //Asignamos el archivo
+                col.storeResource(nuevoRecurso); //Lo almacenamos en la colección
+            }
+
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+
+
+    }
+
     private static boolean comprobarGeneral(String id, String tabla, String dato, String idStr) {
         //Devuelve true si el lo que sea existe
         if (conectar() != null) {
@@ -821,90 +1034,6 @@ public class Main {
 
         }
         return existe;
-
-    }
-
-    public static void tablaPeliculas() {
-        if (conectar() != null) {
-            try {
-                System.out.printf("%-5s%-45s%-15s%-10s%-15s%-10s%-100s\n", "Id", "Nombre", "Valoracion", "Año", "Género", "Duración", "Descripcion");
-                XPathQueryService servicio;
-                servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
-                //Preparamos la consulta
-                ResourceSet result = servicio.query("for $peli in /Peliculas/Pelicula return $peli");
-                // recorrer los datos del recurso.
-                ResourceIterator i;
-                i = result.getIterator();
-                if (!i.hasMoreResources()) {
-                    System.out.println(" LA CONSULTA NO DEVUELVE NADA O ESTÁ MAL ESCRITA");
-                }
-                while (i.hasMoreResources()) {
-                    Resource r = i.nextResource();
-                    try {
-                        XStream xstream = new XStream(new DomDriver());
-                        xstream.registerConverter(new PelisConverter());
-                        //cambiar de nombre a las etiquetas XML
-                        xstream.alias("Pelicula", Pelicula.class);
-                        //Insrtar los objetos en el XML
-                        Pelicula mipeliTemp = (Pelicula) xstream.fromXML(r.getContent().toString());
-
-                        System.out.println("--------------------------------------------");
-
-                        System.out.printf("%-5s%-45s%-15s%-10s%-15s%-10s%-100s\n", mipeliTemp.getIdPelicula(), mipeliTemp.getNombre(), mipeliTemp.getValoracionMedia(), mipeliTemp.getAnyo(), mipeliTemp.getRubro(), mipeliTemp.getDuracion(), mipeliTemp.getDescripcion());
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-                col.close();
-            } catch (XMLDBException e) {
-                System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
-                e.printStackTrace();
-            }
-        } else {
-            System.out.println("Error en la conexión. Comprueba datos.");
-        }
-
-    }
-
-    public static void devolverPeliorId(String id) {
-        Pelicula peli = new Pelicula();
-
-        if (conectar() != null) {
-            try {
-                XPathQueryService servicio;
-                servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
-                //Preparamos la consulta
-                //"for $peli in /Peliculas/Pelicula where $peli/@idPelicula= " + id + " return <a> {$peli/@idPelicula} </a>"
-                ResourceSet result = servicio.query("for $peli in /Peliculas/Pelicula where $peli/@idPelicula= " + id + " return $peli");
-                // recorrer los datos del recurso.
-                ResourceIterator i;
-                i = result.getIterator();
-                if (!i.hasMoreResources()) {
-                    System.out.println(" LA CONSULTA NO DEVUELVE NADA O ESTÁ MAL ESCRITA");
-                }
-                while (i.hasMoreResources()) {
-                    Resource r = i.nextResource();
-                    try {
-                        XStream xstream = new XStream(new DomDriver());
-                        xstream.registerConverter(new PelisConverter());
-                        //cambiar de nombre a las etiquetas XML
-                        xstream.alias("Pelicula", Pelicula.class);
-                        //Insrtar los objetos en el XML
-                        peli = (Pelicula) xstream.fromXML(r.getContent().toString());
-                        peli.imprimir();
-
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-                col.close();
-            } catch (XMLDBException e) {
-                System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
-                e.printStackTrace();
-            }
-        } else {
-            System.out.println("Error en la conexión. Comprueba datos.");
-        }
 
     }
 
@@ -1313,30 +1442,35 @@ public class Main {
         return resultado;
     }
 
-    public static void resetBDD(File archivo) throws XMLDBException {
+    private static int cantItems(String tabla, String dato) {
+        //Devuelve ultimo id siendo un id, no devuelve mas de un reultado pues no existen iguales
+        int resultado = -1;
         if (conectar() != null) {
             try {
-                Resource recursoBorrar = col.getResource(archivo.getName());
-                col.removeResource(recursoBorrar);
-            } catch (NullPointerException | XMLDBException e) {
-                System.out.println("EL RECURSO NO SE PUEDE BORRAR PORUQE NO SE ENCUENTRA.");
+                XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                //Consulta para obtener ultimo Id de una tabla
+                //max(//Peliculas/Pelicula/@idPelicula)
+                String consulta = "count(//" + tabla + "/" + dato + ")";
+                ResourceSet result = servicio.query(consulta);
+                ResourceIterator i;
+                i = result.getIterator();
+                col.close();
+                if (!i.hasMoreResources()) {
+                    resultado = -1;
+                } else {
+                    while (i.hasMoreResources()) {
+                        Resource r = i.nextResource();
+                        resultado = Integer.parseInt(r.getContent().toString());
+                    }
+                }
+            } catch (Exception e) {
+                System.out.println("Error al consultar.");
+                // e.printStackTrace();
             }
-
-
-            if (!archivo.canRead())
-                System.out.println("ERROR AL LEER EL FICHERO");
-            else {
-                Resource nuevoRecurso = col.createResource(archivo.getName(),
-                        "XMLResource");
-                nuevoRecurso.setContent(archivo); //Asignamos el archivo
-                col.storeResource(nuevoRecurso); //Lo almacenamos en la colección
-            }
-
         } else {
             System.out.println("Error en la conexión. Comprueba datos.");
         }
-
-
+        return resultado;
     }
 
     public static int idValidoPelicula(int tipo) {
@@ -1422,39 +1556,8 @@ public class Main {
 
     }
 
-    public static String valorarPeli(String datoValoracion) {
-
-        String leido = "";
-        boolean fallido = true;
-        Scanner input = new Scanner(System.in);
-
-        while (fallido) {
-            System.out.println("Ingresa Valoracion para la Pelicula:");
-            Scanner scan = new Scanner(System.in);
-            if (scan.hasNextInt()) {
-                int x = scan.nextInt();
-                if (x >= 1 && x <= 10) {
-                    leido = String.valueOf(x);
-                    fallido = false;
-                } else {
-                    System.out.println("LA VALORACION DEBE ESTAR ENTRE 1 Y 10");
-                }
-            } else {
-                System.out.println("DATO INTRODUCIDO NO VALIDO");
-                fallido = true;
-            }
-
-        }
-        fallido = true;
-        //si obtengo VALORACION
-
-        fallido = false;
-        return leido;
-    }
-
 
     //criticos
-
     private static boolean existeCodigoCritico(String id) {
         boolean existe = false;
         if (conectar() != null) {

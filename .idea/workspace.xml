@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9735cadd-0c26-44e9-aca5-02c9ac44dfe5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colecciones/Valoraciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Colecciones/Valoraciones.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dats_iniciales/Valoraciones.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dats_iniciales/Valoraciones.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CriticaCine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CriticaCine.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Modelos/Critico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Modelos/Critico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Modelos/Pelicula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Modelos/Valoracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Modelos/Valoracion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/Temp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Temp.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../PROYECTO_JOKIN_EVAL1/CriticaCine" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../PROYECTO-2-AD_ADRIAN/MRODA_PROY_GIT/MRODA_PROY" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16129032" />
@@ -65,6 +59,7 @@
       <recent name="C:\Users\Fran\.IdeaIC2019.2\config\scratches\Modelos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.Utils" />
       <recent name="com.company" />
     </key>
   </component>
@@ -82,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearFichPelicula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.CrearFichPelicula" />
+    <configuration name="CrearFichValoraciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.CrearFichValoraciones" />
       <module name="CriticaCine" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearFichValoraciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.CrearFichValoraciones" />
+    <configuration name="ExcelUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Utils.ExcelUtils" />
       <module name="CriticaCine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Controllers.*" />
+          <option name="PATTERN" value="com.company.Utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ExcelUtils" />
         <item itemvalue="Application.LeerPeliculasValoradas" />
         <item itemvalue="Application.CrearFichValoraciones" />
         <item itemvalue="Application.CrearFichCriticos" />
-        <item itemvalue="Application.CrearFichPelicula" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633542941739</updated>
       <workItem from="1637484092048" duration="37360000" />
-      <workItem from="1638093949342" duration="24652000" />
+      <workItem from="1638093949342" duration="31246000" />
     </task>
     <servers />
   </component>
