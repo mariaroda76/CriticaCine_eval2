@@ -22,8 +22,8 @@ public class ExcelUtils {
         }
 
         int j;
-        for (int i = 0; i < data[0].length; i++) {//rows
-            for (j = 0; j < data[i][0].length(); j++) {//column
+        for (int i = 0; i < data.length; i++) {//rows
+            for (j = 0; j < data[i].length; j++) {//column
                 Label row = new Label(j, i + 1, data[i][j]);
                 curSheet.addCell(row);
             }
@@ -37,7 +37,7 @@ public class ExcelUtils {
 
     public static void main(String[] args) throws Exception {
         String[] header = new String[]{"First", "sec", "third"};
-        String[][] arr = new String[][]{{"aa", "bb", "cc"}, {"aa1", "bb2", "cc1"}, {"aa2", "bb3", "cc4"}, {"aasdf", "bbdsf", "ccsdf"}};
+        String[][] arr = new String[][]{{"aa", "bb", "cc"}, {"aa1", "bb2", "cc1"}, {"aa2", "bb3", "cc4"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}};
 
         writeExcelFrom2DList(arr, header, "dat.xls", "first", 2);
         System.out.println("");

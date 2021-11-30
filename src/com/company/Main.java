@@ -3,10 +3,7 @@ package com.company;
 import com.company.Modelos.Valoracion;
 import com.company.Modelos.Critico;
 import com.company.Modelos.Pelicula;
-import com.company.Utils.CriticoConverter;
-import com.company.Utils.ExcelUtils;
-import com.company.Utils.PelisConverter;
-import com.company.Utils.ValoracionConverter;
+import com.company.Utils.*;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 import org.xmldb.api.DatabaseManager;
@@ -55,7 +52,7 @@ public class Main {
             System.out.print("5.) Listar Todas Peliculas\n");
             System.out.print("6.) Valorar pelicula\n");
             System.out.print("7.) Consultar una Pelicula por ID\n");
-            System.out.print("8.) Peliculas a Excel>> NO FUNCIONA HELP!!!!!!\n");
+            System.out.print("8.) Peliculas a Excel\n");
             System.out.print("0.) Exit\n");
             System.out.print("\nSelecciona una opcion valida: ");
 
@@ -887,7 +884,7 @@ public class Main {
             try {
                 String[] header = new String[]{"Id", "Nombre", "Valoracion", "Año", "Género", "Duración", "Descripcion"};
                 int totalPelis = cantItems("Peliculas", "Pelicula");
-                String[][] arr = new String[totalPelis][7];
+                String[][] arr = new String[totalPelis][];
 
                 XPathQueryService servicio;
                 servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
@@ -913,13 +910,17 @@ public class Main {
                         Pelicula mipeliTemp = (Pelicula) xstream.fromXML(r.getContent().toString());
 
                         arr[pos] = new String[]{
+
+
                                 String.valueOf(mipeliTemp.getIdPelicula()),
                                 String.valueOf(mipeliTemp.getNombre()),
                                 String.valueOf(mipeliTemp.getValoracionMedia()),
                                 String.valueOf(mipeliTemp.getAnyo()),
                                 String.valueOf(mipeliTemp.getRubro()),
                                 String.valueOf(mipeliTemp.getDuracion()),
-                                String.valueOf(mipeliTemp.getDescripcion())};
+                                String.valueOf(mipeliTemp.getDescripcion())
+
+                        };
 
 
                             /*
@@ -937,7 +938,9 @@ public class Main {
                     }
                 }
 
-                ExcelUtils.writeExcelFrom2DList(arr, header, "ExportsDePrograma/dat.xls", "first", 2);
+                //String fileName = "ExportsDePrograma/dat.csv";
+                //CSVWritterExample.exportDataToExcel(fileName, arr);
+               ExcelUtils.writeExcelFrom2DList(arr, header, "ExportsDePrograma/dat.xls", "first", 2);
                 col.close();
             } catch (XMLDBException e) {
                 System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
@@ -1071,7 +1074,7 @@ public class Main {
         fallido = true;*/
 
         //asignarID autumatico
-        nuevaPeli.setIdPelicula(ultimoId("Peliculas", "Pelicula", "idPelicula") + 1);
+        nuevaPeli.setIdPelicula(ultimoId("Peliculas", "Pelicula", "@idPelicula") + 1);
 
 
         //ingreso de rubro
@@ -1205,7 +1208,10 @@ public class Main {
 
         nuevaPeli.setValoracionMedia(0);
 
+        nuevaPeli.imprimir ();
+
         return nuevaPeli;
+
     }
 
     public static String datoAmodificar() {
