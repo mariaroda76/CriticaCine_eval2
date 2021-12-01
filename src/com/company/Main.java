@@ -53,6 +53,7 @@ public class Main {
             System.out.print("6.) Valorar pelicula\n");
             System.out.print("7.) Consultar una Pelicula por ID\n");
             System.out.print("8.) Peliculas a Excel\n");
+            System.out.print("9.) Consultas\n");
             System.out.print("0.) Exit\n");
             System.out.print("\nSelecciona una opcion valida: ");
 
@@ -198,8 +199,12 @@ public class Main {
 
                 case "8":
                     peliculasAExcel();
-
                     break;
+
+                case "9":
+                    opcionBusqueda();
+                    break;
+
                 case "0":
                     System.out.println("Salir del programa...");
                     System.exit(0);
@@ -878,7 +883,6 @@ public class Main {
 
     }
 
-
     public static void peliculasAExcel() {
         if (conectar() != null) {
             try {
@@ -923,29 +927,82 @@ public class Main {
                         };
 
 
-                            /*
-                        arr[pos][0] = String.valueOf(mipeliTemp.getIdPelicula());
-                        arr[pos][1] = mipeliTemp.getNombre();
-                        arr[pos][2] = String.valueOf(mipeliTemp.getValoracionMedia());
-                        arr[pos][3] = String.valueOf(mipeliTemp.getAnyo());
-                        arr[pos][4] = String.valueOf(mipeliTemp.getRubro());
-                        arr[pos][5] = String.valueOf(mipeliTemp.getDuracion());
-                        arr[pos][6] = mipeliTemp.getDescripcion();*/
-
                         pos = pos + 1;
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
 
-                //String fileName = "ExportsDePrograma/dat.csv";
-                //CSVWritterExample.exportDataToExcel(fileName, arr);
-               ExcelUtils.writeExcelFrom2DList(arr, header, "ExportsDePrograma/dat.xls", "first", 2);
+                ExcelUtils.writeExcelFrom2DList(arr, header, "ExportsDePrograma/dat.xls", "first", 2);
                 col.close();
             } catch (XMLDBException e) {
                 System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
                 e.printStackTrace();
             } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("Error en la conexión. Comprueba datos.");
+        }
+
+    }
+
+    //public static void busquedaPelis(String busqueda, String rubro, int anyo)
+    public static void busquedaPelis(String busqueda, String rubro, int anyo) {
+
+        String busquedaDetallada;
+
+        switch (busqueda) {
+            case "1":
+                busquedaDetallada = "for $peli in /Peliculas/Pelicula where $peli/valoracionMedia >= 5 return $peli";
+                break;
+            case "2":
+                busquedaDetallada = "for $peli in /Peliculas/Pelicula order by $peli/duracion return $peli";
+                break;
+            case "3":
+                //"for $peli in /Peliculas/Pelicula where $peli/anyo >1980 and $peli/@rubro= "Sci_Fi" return   $peli  "
+                busquedaDetallada = "for $peli in /Peliculas/Pelicula where $peli/anyo > " + anyo + " and $peli/@rubro=" + rubro + " return $peli ";
+                break;
+            default:
+                busquedaDetallada = "";
+                break;
+
+        }
+
+        if (conectar() != null) {
+            try {
+                System.out.printf("%-5s%-45s%-15s%-10s%-15s%-10s%-100s\n", "Id", "Nombre", "Valoracion", "Año", "Género", "Duración", "Descripcion");
+                XPathQueryService servicio;
+                servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
+                //Preparamos la consulta
+                ResourceSet result = servicio.query(busquedaDetallada);
+                // recorrer los datos del recurso.
+                ResourceIterator i;
+                i = result.getIterator();
+                if (!i.hasMoreResources()) {
+                    System.out.println(" LA CONSULTA NO DEVUELVE NADA, VERIFICA TUS PARÁMETROS DE BUSQUEDA");
+                }
+                while (i.hasMoreResources()) {
+                    Resource r = i.nextResource();
+                    try {
+                        XStream xstream = new XStream(new DomDriver());
+                        xstream.registerConverter(new PelisConverter());
+                        //cambiar de nombre a las etiquetas XML
+                        xstream.alias("Pelicula", Pelicula.class);
+                        //Insrtar los objetos en el XML
+                        Pelicula mipeliTemp = (Pelicula) xstream.fromXML(r.getContent().toString());
+
+                        System.out.println("--------------------------------------------");
+                        if (!String.valueOf(mipeliTemp.getIdPelicula()).equals("")) {
+                            System.out.printf("%-5s%-45s%-15s%-10s%-15s%-10s%-100s\n", mipeliTemp.getIdPelicula(), mipeliTemp.getNombre(), mipeliTemp.getValoracionMedia(), mipeliTemp.getAnyo(), mipeliTemp.getRubro(), mipeliTemp.getDuracion(), mipeliTemp.getDescripcion());
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                col.close();
+            } catch (XMLDBException e) {
+                System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
                 e.printStackTrace();
             }
         } else {
@@ -1208,7 +1265,7 @@ public class Main {
 
         nuevaPeli.setValoracionMedia(0);
 
-        nuevaPeli.imprimir ();
+        nuevaPeli.imprimir();
 
         return nuevaPeli;
 
@@ -1260,6 +1317,132 @@ public class Main {
         fallido = true;
 
         return dato;
+    }
+
+    public static void opcionBusqueda() {
+        String leido;
+        String dato = "";
+        boolean fallido = true;
+        Scanner input = new Scanner(System.in);
+
+        while (fallido) {
+            System.out.println("Ingresa tu opcion de busqueda:");
+
+            System.out.print("\t\t1.) Peliculas valoradas con 5 o mas *****\n");
+            System.out.print("\t\t2.) Listar Peliculas por orden de duracion (Decr)\n");
+            System.out.print("\t\t3.) Listar peliculas por Genero y Año\n");
+            System.out.print("\nSelecciona una opcion valida: ");
+
+            leido = input.nextLine();
+
+            switch (leido) {
+                case "1":
+                    busquedaPelis("1", "", 0);
+                    fallido = false;
+                    break;
+                case "2":
+                    busquedaPelis("2", "", 0);
+                    fallido = false;
+                    break;
+                case "3":
+                    //ingreso de rubro
+                    String rubro = "";
+                    int anyo =0;
+                    while (fallido) {
+                        System.out.println("Ingresa rubropara la nueva pelicula:");
+                        String genero;
+
+                        System.out.println("\nRubros:");
+                        System.out.print("\t\t1.) Horror\n");
+                        System.out.print("\t\t2.) Biografia\n");
+                        System.out.print("\t\t3.) Sci_Fi\n");
+                        System.out.print("\t\t4.) Accion\n");
+                        System.out.print("\t\t5.) Aventura\n");
+                        System.out.print("\t\t6.) Comedia\n");
+                        System.out.print("\t\t7.) Drama\n");
+                        System.out.print("\t\t8.) Romance\n");
+                        System.out.print("\t\t9.) Documental\n");
+                        System.out.print("\nSelecciona una opcion valida: ");
+
+                        genero = input.nextLine();
+
+
+                        switch (genero) {
+                            case "1":
+                                rubro = "Horror";
+                                fallido = false;
+                                break;
+                            case "2":
+                                rubro = "Biografia";
+                                fallido = false;
+                                break;
+                            case "3":
+                                rubro = "Sci_Fi";
+                                fallido = false;
+                                break;
+                            case "4":
+                                rubro = "Accion";
+                                fallido = false;
+                                break;
+                            case "5":
+                                rubro = "Aventura";
+                                fallido = false;
+                                break;
+                            case "6":
+                                rubro = "Comedia";
+                                fallido = false;
+                                break;
+                            case "7":
+                                rubro = "Drama";
+                                fallido = false;
+                                break;
+                            case "8":
+                                rubro = "Romance";
+                                fallido = false;
+                                break;
+                            case "9":
+                                rubro = "Documental";
+                                fallido = false;
+                                break;
+                            default:
+                                System.out.println("Opcion no valida...");
+                        }
+                    }
+                    fallido = true;
+
+                    //ingreso de año
+                    while (fallido) {
+                        System.out.println("Ingresa año de estreno nueva pelicula:");
+
+                        Scanner scan = new Scanner(System.in);
+                        if (scan.hasNextInt()) {
+                            int x = scan.nextInt();
+                            if (x >= 1800 && x <= 2021) {
+                                anyo=x;
+                                fallido = false;
+                            } else {
+                                System.out.println("AÑOS VALIDOS DE 1800 A 2021");
+                            }
+                        } else {
+                            System.out.println("DATO INTRODUCIDO NO VALIDO");
+                            fallido = true;
+                        }
+
+                    }
+                    fallido = true;
+
+
+
+                    busquedaPelis("3", rubro, anyo);
+                    fallido = false;
+                    break;
+                default:
+                    System.out.println("Opcion no valida...");
+            }
+        }
+        fallido = true;
+
+
     }
 
     public static String valorAmodificar(String datoAmodificar) {

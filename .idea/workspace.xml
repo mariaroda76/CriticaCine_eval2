@@ -3,17 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="9735cadd-0c26-44e9-aca5-02c9ac44dfe5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Colecciones/Peliculas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Colecciones/Peliculas.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Colecciones/Valoraciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Colecciones/Valoraciones.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CriticaCine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CriticaCine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExportsDePrograma/dat.xls" beforeDir="false" afterPath="$PROJECT_DIR$/ExportsDePrograma/dat.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dat.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dats_iniciales/Valoraciones.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dats_iniciales/Valoraciones.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/ExcelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/ExcelUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/CSVWritterExample.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Utils/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/Temp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Temp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,18 +69,6 @@
       <recent name="com.company.Utils" />
       <recent name="com.company" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="CrearFichCriticos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -158,7 +146,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,13 +171,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -32,7 +32,8 @@ public class PelisConverter implements Converter {
             writer.endNode();
 
             writer.startNode("duracion");
-            writer.setValue(String.valueOf(pelicula.getDuracion()));
+            //writer.setValue(String.valueOf(pelicula.getDuracion()));
+            writer.setValue(String.format("%03d", pelicula.getDuracion()));
             writer.endNode();
 
             writer.startNode("descripcion");

@@ -1,9 +1,9 @@
 <Peliculas>
-  <Pelicula idPelicula="186" rubro="Horror">
-    <nombre>test 1</nombre>
-    <anyo>2020</anyo>
-    <duracion>150</duracion>
-    <descripcion>test descripcion</descripcion>
+  <Pelicula idPelicula="186" rubro="Biografia">
+    <nombre>test</nombre>
+    <anyo>1999</anyo>
+    <duracion>015</duracion>
+    <descripcion>desc5</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
 </Peliculas>

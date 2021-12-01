@@ -36,10 +36,10 @@ public class ExcelUtils {
 
 
     public static void main(String[] args) throws Exception {
-        String[] header = new String[]{"First", "sec", "third"};
+/*        String[] header = new String[]{"First", "sec", "third"};
         String[][] arr = new String[][]{{"aa", "bb", "cc"}, {"aa1", "bb2", "cc1"}, {"aa2", "bb3", "cc4"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}, {"aasdf", "bbdsf", "ccsdf"}};
 
         writeExcelFrom2DList(arr, header, "dat.xls", "first", 2);
-        System.out.println("");
+        System.out.println("");*/
     }
 }

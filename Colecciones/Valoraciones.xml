@@ -1,188 +1,188 @@
 <Valoraciones>
   <valoracion>
     <idPelicula>1</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>3</valoracion>
+    <idCritico>17</idCritico>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>1</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>4</valoracion>
+    <idCritico>14</idCritico>
+    <valoracion>6</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>2</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>2</idPelicula>
-    <idCritico>13</idCritico>
+    <idCritico>17</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>3</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>3</idPelicula>
-    <idCritico>9</idCritico>
+    <idPelicula>2</idPelicula>
+    <idCritico>15</idCritico>
     <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>4</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>7</valoracion>
+    <idPelicula>3</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>3</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>4</idPelicula>
-    <idCritico>18</idCritico>
+    <idCritico>16</idCritico>
     <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>4</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>5</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>5</idPelicula>
     <idCritico>10</idCritico>
-    <valoracion>6</valoracion>
+    <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>5</idPelicula>
-    <idCritico>20</idCritico>
+    <idPelicula>6</idPelicula>
+    <idCritico>4</idCritico>
     <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>6</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>6</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>7</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>7</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>8</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>8</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>9</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>9</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>10</idPelicula>
-    <idCritico>9</idCritico>
+    <idCritico>10</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>10</idPelicula>
-    <idCritico>17</idCritico>
+    <idPelicula>7</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>7</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>8</idPelicula>
+    <idCritico>10</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>11</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>11</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>12</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>12</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>13</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>13</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>14</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>14</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>15</idPelicula>
+    <idPelicula>8</idPelicula>
     <idCritico>14</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>9</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>9</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>10</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>10</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>11</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>11</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>12</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>12</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>13</idPelicula>
+    <idCritico>6</idCritico>
     <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>13</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>14</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>14</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>15</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>15</idPelicula>
     <idCritico>15</idCritico>
-    <valoracion>5</valoracion>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>16</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>3</valoracion>
+    <idCritico>7</idCritico>
+    <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>16</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>17</idPelicula>
-    <idCritico>11</idCritico>
+    <idCritico>6</idCritico>
     <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>17</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>1</valoracion>
+    <idCritico>7</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>17</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>18</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>18</idPelicula>
     <idCritico>3</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>18</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>5</valoracion>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>19</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>2</valoracion>
+    <idCritico>1</idCritico>
+    <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>19</idPelicula>
@@ -191,218 +191,213 @@
   </valoracion>
   <valoracion>
     <idPelicula>20</idPelicula>
-    <idCritico>17</idCritico>
+    <idCritico>3</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>20</idPelicula>
     <idCritico>2</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>21</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>21</idPelicula>
-    <idCritico>1</idCritico>
     <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>22</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>2</valoracion>
+    <idPelicula>21</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>21</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>22</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>7</valoracion>
+    <idCritico>10</idCritico>
+    <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>23</idPelicula>
-    <idCritico>4</idCritico>
+    <idPelicula>22</idPelicula>
+    <idCritico>7</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>23</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>23</idPelicula>
     <idCritico>9</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>24</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>24</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>25</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>25</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>26</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>26</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>27</idPelicula>
-    <idCritico>18</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>27</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>28</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>28</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>29</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>29</idPelicula>
-    <idCritico>12</idCritico>
+    <idPelicula>24</idPelicula>
+    <idCritico>19</idCritico>
     <valoracion>6</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>30</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>30</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>31</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>31</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>32</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>32</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>33</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>33</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>34</idPelicula>
+    <idPelicula>24</idPelicula>
     <idCritico>11</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>25</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>25</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>26</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>26</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>27</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>27</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>28</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>28</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>29</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>29</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>30</idPelicula>
+    <idCritico>18</idCritico>
     <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>34</idPelicula>
+    <idPelicula>30</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>31</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>31</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>32</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>32</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>33</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>33</idPelicula>
     <idCritico>3</idCritico>
-    <valoracion>7</valoracion>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>34</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>34</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>35</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>7</valoracion>
+    <idCritico>16</idCritico>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>35</idPelicula>
-    <idCritico>13</idCritico>
+    <idCritico>4</idCritico>
     <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>36</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>1</valoracion>
+    <idCritico>2</idCritico>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>36</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>4</valoracion>
+    <idCritico>7</idCritico>
+    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>37</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>4</valoracion>
+    <idCritico>5</idCritico>
+    <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>37</idPelicula>
-    <idCritico>4</idCritico>
+    <idCritico>9</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>38</idPelicula>
+    <idCritico>6</idCritico>
     <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>38</idPelicula>
     <idCritico>19</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>38</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>2</valoracion>
+    <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>39</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>1</valoracion>
+    <idCritico>8</idCritico>
+    <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>39</idPelicula>
-    <idCritico>18</idCritico>
+    <idCritico>1</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>40</idPelicula>
+    <idCritico>2</idCritico>
     <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>40</idPelicula>
-    <idCritico>10</idCritico>
+    <idCritico>19</idCritico>
     <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>40</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>41</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>41</idPelicula>
@@ -410,577 +405,577 @@
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>42</idPelicula>
-    <idCritico>6</idCritico>
+    <idPelicula>41</idPelicula>
+    <idCritico>14</idCritico>
     <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>42</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>43</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>43</idPelicula>
-    <idCritico>7</idCritico>
+    <idCritico>12</idCritico>
     <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>44</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>44</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>45</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>45</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>46</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>46</idPelicula>
-    <idCritico>16</idCritico>
+    <idPelicula>42</idPelicula>
+    <idCritico>3</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>47</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>2</valoracion>
+    <idPelicula>43</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>47</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>48</idPelicula>
+    <idPelicula>43</idPelicula>
     <idCritico>9</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>48</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>49</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>49</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>50</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>50</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>51</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>51</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>52</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>52</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>53</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>53</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>54</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>54</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>55</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>55</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>56</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>56</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>57</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>57</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>58</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>58</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>59</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>59</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>60</idPelicula>
+    <idPelicula>44</idPelicula>
     <idCritico>1</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>60</idPelicula>
-    <idCritico>20</idCritico>
     <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>61</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>6</valoracion>
+    <idPelicula>44</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>61</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>62</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>62</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>63</idPelicula>
+    <idPelicula>45</idPelicula>
     <idCritico>6</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>63</idPelicula>
-    <idCritico>10</idCritico>
+    <idPelicula>45</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>46</idPelicula>
+    <idCritico>1</idCritico>
     <valoracion>6</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>64</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>64</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>65</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>65</idPelicula>
+    <idPelicula>46</idPelicula>
     <idCritico>20</idCritico>
-    <valoracion>4</valoracion>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>66</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>66</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>67</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>67</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>68</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>68</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>69</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>69</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>70</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>70</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>71</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>71</idPelicula>
+    <idPelicula>47</idPelicula>
     <idCritico>19</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>72</idPelicula>
+    <idPelicula>47</idPelicula>
     <idCritico>2</idCritico>
-    <valoracion>7</valoracion>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>72</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>73</idPelicula>
-    <idCritico>13</idCritico>
+    <idPelicula>48</idPelicula>
+    <idCritico>7</idCritico>
     <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>73</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>74</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>74</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>75</idPelicula>
+    <idPelicula>48</idPelicula>
     <idCritico>4</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>49</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>49</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>50</idPelicula>
+    <idCritico>10</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>50</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>51</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>51</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>52</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>52</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>53</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>53</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>54</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>54</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>55</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>55</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>56</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>56</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>57</idPelicula>
+    <idCritico>6</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
+    <idPelicula>57</idPelicula>
+    <idCritico>17</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>58</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>58</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>59</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>59</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>60</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>60</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>61</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>61</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>62</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>62</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>63</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>63</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>64</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>64</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>65</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>65</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>66</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>66</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>67</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>67</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>68</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>68</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>69</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>69</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>70</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>70</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>71</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>71</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>72</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>72</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>73</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>73</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>74</idPelicula>
+    <idCritico>17</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>74</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
     <idPelicula>75</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>75</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>76</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>76</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>77</idPelicula>
+    <idCritico>11</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>77</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>78</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>78</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>79</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>79</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>80</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>80</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>81</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>81</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>82</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>82</idPelicula>
+    <idCritico>11</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>83</idPelicula>
     <idCritico>14</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>76</idPelicula>
+    <idPelicula>83</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>84</idPelicula>
+    <idCritico>17</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>84</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>85</idPelicula>
     <idCritico>5</idCritico>
     <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>76</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>77</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>77</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>78</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>78</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>79</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>79</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>80</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>80</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>81</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>81</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>82</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>82</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>83</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>83</idPelicula>
+    <idPelicula>85</idPelicula>
     <idCritico>8</idCritico>
     <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>84</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>4</valoracion>
+    <idPelicula>86</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>84</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>85</idPelicula>
+    <idPelicula>86</idPelicula>
     <idCritico>6</idCritico>
     <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>85</idPelicula>
+    <idPelicula>87</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>87</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>88</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>88</idPelicula>
+    <idCritico>10</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>89</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>89</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>90</idPelicula>
     <idCritico>11</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>86</idPelicula>
-    <idCritico>2</idCritico>
     <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>86</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>87</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>87</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>88</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>88</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>89</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>89</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
     <idPelicula>90</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>90</idPelicula>
-    <idCritico>19</idCritico>
+    <idCritico>9</idCritico>
     <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>91</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>91</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>92</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>92</idPelicula>
+    <idCritico>17</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>93</idPelicula>
+    <idCritico>11</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>93</idPelicula>
     <idCritico>16</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>91</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>92</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>92</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>93</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>93</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>1</valoracion>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>94</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>1</valoracion>
+    <idCritico>20</idCritico>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>94</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>95</idPelicula>
-    <idCritico>18</idCritico>
+    <idCritico>20</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>95</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>6</valoracion>
+    <idCritico>15</idCritico>
+    <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>96</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>96</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>97</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>97</idPelicula>
+    <idPelicula>95</idPelicula>
     <idCritico>19</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>96</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>96</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>97</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>97</idPelicula>
+    <idCritico>5</idCritico>
     <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>98</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>7</valoracion>
+    <idCritico>8</idCritico>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>98</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>99</idPelicula>
     <idCritico>19</idCritico>
     <valoracion>3</valoracion>
   </valoracion>
@@ -990,317 +985,317 @@
     <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
+    <idPelicula>99</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
     <idPelicula>100</idPelicula>
-    <idCritico>7</idCritico>
+    <idCritico>2</idCritico>
     <valoracion>6</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>100</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>101</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>101</idPelicula>
     <idCritico>12</idCritico>
-    <valoracion>3</valoracion>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>101</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>101</idPelicula>
-    <idCritico>14</idCritico>
+    <idPelicula>102</idPelicula>
+    <idCritico>4</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>102</idPelicula>
-    <idCritico>14</idCritico>
+    <idCritico>13</idCritico>
     <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>102</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>2</valoracion>
+    <idPelicula>103</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>103</idPelicula>
-    <idCritico>2</idCritico>
+    <idCritico>20</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>104</idPelicula>
+    <idCritico>13</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>103</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
     <idPelicula>104</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>104</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>105</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>8</valoracion>
+    <idCritico>3</idCritico>
+    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>105</idPelicula>
     <idCritico>9</idCritico>
-    <valoracion>6</valoracion>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>106</idPelicula>
-    <idCritico>7</idCritico>
+    <idPelicula>105</idPelicula>
+    <idCritico>4</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>106</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>1</valoracion>
+    <idCritico>14</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>106</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>107</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>107</idPelicula>
     <idCritico>4</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>107</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>6</valoracion>
+    <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>108</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>108</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>109</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>109</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>110</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>110</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>111</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>111</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>112</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>112</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>113</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>113</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>114</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>114</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>115</idPelicula>
     <idCritico>1</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>108</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>109</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>109</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>110</idPelicula>
+    <idPelicula>115</idPelicula>
     <idCritico>10</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>110</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>111</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>111</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>112</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>112</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>113</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>113</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>114</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>114</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>115</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>115</idPelicula>
-    <idCritico>9</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>116</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>116</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>117</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>117</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>118</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>118</idPelicula>
     <idCritico>16</idCritico>
-    <valoracion>3</valoracion>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>119</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>5</valoracion>
+    <idPelicula>116</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>119</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>120</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>120</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>121</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>121</idPelicula>
+    <idPelicula>117</idPelicula>
     <idCritico>19</idCritico>
-    <valoracion>1</valoracion>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>122</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>6</valoracion>
+    <idPelicula>117</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>122</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>123</idPelicula>
+    <idPelicula>118</idPelicula>
     <idCritico>15</idCritico>
-    <valoracion>5</valoracion>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>118</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>119</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>119</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>120</idPelicula>
+    <idCritico>11</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>120</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>121</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>121</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>122</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>122</idPelicula>
+    <idCritico>7</idCritico>
+    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>123</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>1</valoracion>
+    <idCritico>18</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>123</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>124</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>124</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>125</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>125</idPelicula>
+    <idCritico>10</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>126</idPelicula>
     <idCritico>12</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>124</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>125</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>125</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>126</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>126</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>127</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>127</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>128</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>128</idPelicula>
-    <idCritico>2</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>129</idPelicula>
-    <idCritico>8</idCritico>
+    <idPelicula>126</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>127</idPelicula>
+    <idCritico>12</idCritico>
     <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
+    <idPelicula>127</idPelicula>
+    <idCritico>10</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>128</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>128</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
     <idPelicula>129</idPelicula>
-    <idCritico>7</idCritico>
+    <idCritico>17</idCritico>
     <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>130</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>130</idPelicula>
+    <idPelicula>129</idPelicula>
     <idCritico>7</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>131</idPelicula>
+    <idPelicula>130</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>130</idPelicula>
     <idCritico>19</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
@@ -1310,94 +1305,99 @@
     <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>132</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>5</valoracion>
+    <idPelicula>131</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>132</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>9</valoracion>
+    <idCritico>10</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>132</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>133</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>9</valoracion>
+    <idCritico>5</idCritico>
+    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>133</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>6</valoracion>
+    <idCritico>6</idCritico>
+    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>134</idPelicula>
-    <idCritico>6</idCritico>
+    <idCritico>2</idCritico>
     <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>134</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>135</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>135</idPelicula>
     <idCritico>7</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>136</idPelicula>
-    <idCritico>1</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>136</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>137</idPelicula>
-    <idCritico>13</idCritico>
     <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>137</idPelicula>
-    <idCritico>8</idCritico>
+    <idPelicula>135</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>135</idPelicula>
+    <idCritico>3</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
+    <idPelicula>136</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>136</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>137</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>137</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
     <idPelicula>138</idPelicula>
-    <idCritico>19</idCritico>
+    <idCritico>10</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>138</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>8</valoracion>
+    <idCritico>15</idCritico>
+    <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>139</idPelicula>
-    <idCritico>1</idCritico>
+    <idCritico>18</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>139</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>140</idPelicula>
     <idCritico>10</idCritico>
-    <valoracion>8</valoracion>
+    <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>140</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>6</valoracion>
+    <idCritico>1</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>140</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>141</idPelicula>
@@ -1406,68 +1406,73 @@
   </valoracion>
   <valoracion>
     <idPelicula>141</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>142</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>142</idPelicula>
     <idCritico>15</idCritico>
-    <valoracion>9</valoracion>
+    <valoracion>2</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>143</idPelicula>
+    <idPelicula>142</idPelicula>
     <idCritico>1</idCritico>
     <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
+    <idPelicula>142</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
     <idPelicula>143</idPelicula>
-    <idCritico>6</idCritico>
+    <idCritico>10</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>143</idPelicula>
+    <idCritico>10</idCritico>
     <valoracion>7</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>144</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>1</valoracion>
+    <idCritico>7</idCritico>
+    <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>144</idPelicula>
-    <idCritico>1</idCritico>
+    <idCritico>12</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>145</idPelicula>
+    <idCritico>13</idCritico>
     <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>145</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>7</valoracion>
+    <idCritico>14</idCritico>
+    <valoracion>8</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>145</idPelicula>
-    <idCritico>17</idCritico>
+    <idPelicula>146</idPelicula>
+    <idCritico>9</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>146</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>147</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>147</idPelicula>
     <idCritico>19</idCritico>
-    <valoracion>6</valoracion>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>146</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>147</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>147</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>2</valoracion>
+    <idPelicula>148</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>148</idPelicula>
@@ -1475,378 +1480,373 @@
     <valoracion>3</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>148</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>4</valoracion>
+    <idPelicula>149</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
     <idPelicula>149</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>149</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>150</idPelicula>
-    <idCritico>3</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>150</idPelicula>
-    <idCritico>16</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>151</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>151</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>152</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>152</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>153</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>153</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>154</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>154</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>155</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>155</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>156</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>156</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>157</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>157</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>158</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>158</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>159</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>159</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>160</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>160</idPelicula>
-    <idCritico>12</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>161</idPelicula>
-    <idCritico>9</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>161</idPelicula>
-    <idCritico>2</idCritico>
+    <idCritico>7</idCritico>
     <valoracion>6</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>162</idPelicula>
+    <idPelicula>150</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>150</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>151</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>151</idPelicula>
     <idCritico>3</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>162</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>163</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>163</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>164</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>164</idPelicula>
-    <idCritico>4</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>165</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>165</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>166</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>166</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>167</idPelicula>
-    <idCritico>8</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>167</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>168</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>168</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>169</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>169</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>170</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>170</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>171</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>7</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>171</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>172</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>172</idPelicula>
-    <idCritico>7</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>173</idPelicula>
-    <idCritico>5</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>173</idPelicula>
-    <idCritico>11</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>174</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>1</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>174</idPelicula>
-    <idCritico>19</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>175</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>175</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>176</idPelicula>
-    <idCritico>20</idCritico>
-    <valoracion>9</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>176</idPelicula>
-    <idCritico>13</idCritico>
-    <valoracion>3</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>177</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>2</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>177</idPelicula>
-    <idCritico>18</idCritico>
-    <valoracion>8</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>178</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>178</idPelicula>
+    <idPelicula>152</idPelicula>
     <idCritico>12</idCritico>
-    <valoracion>8</valoracion>
+    <valoracion>1</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>179</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>179</idPelicula>
-    <idCritico>17</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>180</idPelicula>
-    <idCritico>14</idCritico>
-    <valoracion>5</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>180</idPelicula>
-    <idCritico>15</idCritico>
-    <valoracion>4</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>181</idPelicula>
-    <idCritico>6</idCritico>
-    <valoracion>6</valoracion>
-  </valoracion>
-  <valoracion>
-    <idPelicula>181</idPelicula>
+    <idPelicula>152</idPelicula>
     <idCritico>1</idCritico>
     <valoracion>6</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>182</idPelicula>
+    <idPelicula>153</idPelicula>
+    <idCritico>2</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>153</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>154</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>154</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>155</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>155</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>156</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>156</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>157</idPelicula>
+    <idCritico>10</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>157</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>158</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>158</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>159</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>159</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>160</idPelicula>
+    <idCritico>6</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>160</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>161</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>161</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>162</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>162</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>163</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>163</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>164</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>164</idPelicula>
     <idCritico>8</idCritico>
     <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>182</idPelicula>
-    <idCritico>2</idCritico>
+    <idPelicula>165</idPelicula>
+    <idCritico>8</idCritico>
     <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>183</idPelicula>
-    <idCritico>2</idCritico>
-    <valoracion>8</valoracion>
+    <idPelicula>165</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>9</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>183</idPelicula>
-    <idCritico>2</idCritico>
+    <idPelicula>166</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>166</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>167</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>167</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>168</idPelicula>
+    <idCritico>4</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>184</idPelicula>
+    <idPelicula>168</idPelicula>
+    <idCritico>10</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>169</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>169</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>170</idPelicula>
+    <idCritico>17</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>170</idPelicula>
+    <idCritico>17</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>171</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>171</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>172</idPelicula>
+    <idCritico>5</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>172</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>173</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>173</idPelicula>
+    <idCritico>4</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>174</idPelicula>
+    <idCritico>8</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>174</idPelicula>
+    <idCritico>16</idCritico>
+    <valoracion>6</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>175</idPelicula>
+    <idCritico>11</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>175</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>176</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>176</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>177</idPelicula>
+    <idCritico>15</idCritico>
+    <valoracion>9</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>177</idPelicula>
     <idCritico>12</idCritico>
     <valoracion>6</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>184</idPelicula>
-    <idCritico>10</idCritico>
-    <valoracion>6</valoracion>
+    <idPelicula>178</idPelicula>
+    <idCritico>3</idCritico>
+    <valoracion>4</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>185</idPelicula>
-    <idCritico>8</idCritico>
+    <idPelicula>178</idPelicula>
+    <idCritico>17</idCritico>
     <valoracion>5</valoracion>
   </valoracion>
   <valoracion>
-    <idPelicula>185</idPelicula>
-    <idCritico>5</idCritico>
+    <idPelicula>179</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>179</idPelicula>
+    <idCritico>1</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>180</idPelicula>
+    <idCritico>12</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>180</idPelicula>
+    <idCritico>18</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>181</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>2</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>181</idPelicula>
+    <idCritico>2</idCritico>
     <valoracion>7</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>182</idPelicula>
+    <idCritico>13</idCritico>
+    <valoracion>5</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>182</idPelicula>
+    <idCritico>9</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>183</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>183</idPelicula>
+    <idCritico>11</idCritico>
+    <valoracion>4</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>184</idPelicula>
+    <idCritico>10</idCritico>
+    <valoracion>3</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>184</idPelicula>
+    <idCritico>14</idCritico>
+    <valoracion>1</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>185</idPelicula>
+    <idCritico>20</idCritico>
+    <valoracion>8</valoracion>
+  </valoracion>
+  <valoracion>
+    <idPelicula>185</idPelicula>
+    <idCritico>19</idCritico>
+    <valoracion>5</valoracion>
   </valoracion>
 </Valoraciones>
