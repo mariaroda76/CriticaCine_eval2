@@ -18,9 +18,14 @@ import java.util.Scanner;
 
 import java.io.*;
 import java.util.*;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class Main {
 
+    public static Logger logger = Logger.getLogger("MyLog");
     //fichoros dat iniciales
     File f = new File("dats_iniciales\\Peliculas.dat");
     File cr = new File("dats_iniciales\\Criticos.dat");
@@ -36,6 +41,8 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception {
+
+        iniciar_log();
 
         Scanner input = new Scanner(System.in);
         boolean mainLoop = true;
@@ -701,6 +708,7 @@ public class Main {
             try {
                 XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
                 String query = "for $pel in doc('file:///C:/Users/Fran/Desktop/maria/curso3/AD/PROYECTO_JOKIN_EVAL2/CriticaCine/CriticaCine_eval2/temp/Temp.xml') /Peliculas/Pelicula return update insert $pel into /Peliculas";
+                logger.log(Level.INFO,query);
                 ResourceSet result = servicio.query(query);
                 col.close(); //borramos
                 System.out.println("Pelicula Insertada.");
@@ -725,7 +733,9 @@ public class Main {
                     System.out.printf("Actualizo " + dato + ": %s\n", id);
                     XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
                     //Consulta para modificar/actualizar un valor --> update value
+
                     String consulta1 = "update value /" + tabla + "/" + dato + "[" + idStr + "= '" + id + "']/" + datoACambiar + " with data('" + nuevodato + "') ";
+                    logger.log(Level.INFO,consulta1);
                     ResourceSet result = servicio.query(
                             consulta1);
 
@@ -752,6 +762,7 @@ public class Main {
                     XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
                     //Consulta para borrar  --> update delete
                     String consulta2 = "update delete /" + tabla + "/" + dato + "[" + idStr + "= '" + id + "']";
+                    logger.log(Level.INFO,consulta2);
                     ResourceSet result = servicio.query(
                             consulta2);
                     col.close();
@@ -1744,6 +1755,30 @@ public class Main {
         return valoracion;
 
     }
+
+    private static void iniciar_log(){
+        FileHandler fh;
+        try {
+
+            // Configuro el logger y establezco el formato
+            fh = new FileHandler("ExportsDePrograma/log_querys.log", true);
+            // fh=new FileHandler("./log_XML.log",true);
+            logger.addHandler(fh);//para añadir las lineas del log al fichero
+            logger.setLevel(Level.ALL);
+            logger.setUseParentHandlers(false);
+
+            // XMLFormatter formatter = new XMLFormatter ();
+            SimpleFormatter formatter = new SimpleFormatter();
+
+            fh.setFormatter(formatter);
+
+        } catch (SecurityException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 
     //criticos
