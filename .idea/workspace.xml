@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9735cadd-0c26-44e9-aca5-02c9ac44dfe5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colecciones/Peliculas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Colecciones/Peliculas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colecciones/Valoraciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Colecciones/Valoraciones.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dats_iniciales/Valoraciones.dat" beforeDir="false" afterPath="$PROJECT_DIR$/dats_iniciales/Valoraciones.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/ExcelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CriticaCine/com/company/Utils/ExcelUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/CSVWritterExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Utils/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Utils/PelisConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

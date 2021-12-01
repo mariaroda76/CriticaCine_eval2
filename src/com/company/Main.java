@@ -961,7 +961,7 @@ public class Main {
                 break;
             case "3":
                 //"for $peli in /Peliculas/Pelicula where $peli/anyo >1980 and $peli/@rubro= "Sci_Fi" return   $peli  "
-                busquedaDetallada = "for $peli in /Peliculas/Pelicula where $peli/anyo > " + anyo + " and $peli/@rubro=" + rubro + " return $peli ";
+                busquedaDetallada = "for $peli in /Peliculas/Pelicula where $peli/anyo > " + anyo + " and $peli/@rubro= '" + rubro + "' return $peli ";
                 break;
             default:
                 busquedaDetallada = "";
