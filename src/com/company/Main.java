@@ -993,15 +993,26 @@ public class Main {
                 if (!i.hasMoreResources()) {
                     System.out.println(" LA CONSULTA NO DEVUELVE NADA, VERIFICA TUS PARÁMETROS DE BUSQUEDA");
                 }
+
+                ListaPeliculas listaPelis = new ListaPeliculas();
+
+                XStream xstream = new XStream(new DomDriver());
+                xstream.registerConverter(new PelisConverter());
+                //cambiar de nombre a las etiquetas XML
+                xstream.alias("Pelicula", Pelicula.class);
+
+                //para imprimir el xml
+                xstream.alias("Pelicula", Pelicula.class);
+                xstream.addImplicitCollection(ListaPeliculas.class, "lista");
+
                 while (i.hasMoreResources()) {
                     Resource r = i.nextResource();
                     try {
-                        XStream xstream = new XStream(new DomDriver());
-                        xstream.registerConverter(new PelisConverter());
-                        //cambiar de nombre a las etiquetas XML
-                        xstream.alias("Pelicula", Pelicula.class);
-                        //Insrtar los objetos en el XML
+
+                        //pasar peli a objeto e imprimir
                         Pelicula mipeliTemp = (Pelicula) xstream.fromXML(r.getContent().toString());
+                        listaPelis.add(mipeliTemp );
+
 
                         System.out.println("--------------------------------------------");
                         if (!String.valueOf(mipeliTemp.getIdPelicula()).equals("")) {
@@ -1011,8 +1022,12 @@ public class Main {
                         e.printStackTrace();
                     }
                 }
+
+                //Insrtar los objetos en el XML
+                xstream.toXML(listaPelis, new FileOutputStream("ExportsDePrograma\\consulta_AXML.xml"));
+                System.out.println("Creado fichero XML....");
                 col.close();
-            } catch (XMLDBException e) {
+            } catch (XMLDBException | FileNotFoundException e) {
                 System.out.println(" ERROR AL CONSULTAR DOCUMENTO.");
                 e.printStackTrace();
             }
@@ -1341,7 +1356,7 @@ public class Main {
 
             System.out.print("\t\t1.) Peliculas valoradas con 5 o mas *****\n");
             System.out.print("\t\t2.) Listar Peliculas por orden de duracion (Decr)\n");
-            System.out.print("\t\t3.) Listar peliculas por Genero y Año\n");
+            System.out.print("\t\t3.) Listar peliculas por Genero y Año (A XML)\n");
             System.out.print("\nSelecciona una opcion valida: ");
 
             leido = input.nextLine();
