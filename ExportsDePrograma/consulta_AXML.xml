@@ -1,156 +1,163 @@
 <com.company.ListaPeliculas>
-  <Pelicula idPelicula="5" rubro="Accion">
-    <nombre>Dragon Ball Z: La resurrecion de Freezer</nombre>
+  <Pelicula idPelicula="2" rubro="Biografia">
+    <nombre>Letras Explicitas</nombre>
     <anyo>2015</anyo>
-    <duracion>200</duracion>
-    <descripcion>Despues de que Bills, el Dios de la destruccion, decidiera no destruir la Tierra, se vive una gran epoca de paz. Hasta que Sorbet y Tagoma, antiguos miembros elite de la armada de Freezer, llegan a la Tierra con el objetivo de revivir a su lider por medio de las Esferas del Dragon.</descripcion>
+    <duracion>147</duracion>
+    <descripcion>En 1987, cinco jovenes, utilizando rimas brutalmente honestas y bases musicales pesadas, expresan su frustracion y enojo sobre la vida en el lugar mas peligroso de Estados Unidos utilizando el arma mas poderosa que tenian: su musica.</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="8" rubro="Accion">
-    <nombre>Karate Kid</nombre>
-    <anyo>2010</anyo>
-    <duracion>140</duracion>
-    <descripcion>Remake adaptado a la epoca contemporanea del clasico de los 80 Karate Kid. Sigue la historia de Dre, un joven skateboarder que se muda a China con su madre soltera por motivos de trabajo. Cuando un maton local empiece a molestarle, el joven encontrara un apoyo en Mr. Han.</descripcion>
+  <Pelicula idPelicula="166" rubro="Biografia">
+    <nombre>Francisco</nombre>
+    <anyo>2015</anyo>
+    <duracion>115</duracion>
+    <descripcion>Â¿Como logra ser el Papa Francisco un joven timido que hallo su vocacion religiosa un dia de la de floracion (Dario Gandinetti)?    </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="18" rubro="Accion">
-    <nombre>Ghost Rider 2: Espiritu de venganza</nombre>
-    <anyo>2011</anyo>
-    <duracion>096</duracion>
-    <descripcion>Nueva adaptacion del comic &apos;El motorista fantasma&apos;. vive apartado del mundo y sin relacionarse con nadie, pero acaba siendo localizado por el monje Moreau, que necesita su ayuda para buscar a Nadya y a su hijo Danny antes de que los encuentre Roarke, un viejo conocido de Blaze.</descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="24" rubro="Accion">
-    <nombre>Solo por dinero</nombre>
-    <anyo>2012</anyo>
-    <duracion>091</duracion>
-    <descripcion>Una mujer divorciada y desempleada se transforma en una caza-recompensas para sobrevivir, esto la lleva a un caso muy dificil que involucra a su ex-novio de preparatoria.  </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="25" rubro="Accion">
-    <nombre>Sinsajo Parte 1</nombre>
-    <anyo>2014</anyo>
-    <duracion>123</duracion>
-    <descripcion>Ya en el Distrito 13 tras demoler los Juegos del Hambre, Katniss se convierte en el simbolo de una gran rebelion en contra del Capitolio.    </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="26" rubro="Accion">
-    <nombre>Sin limites</nombre>
-    <anyo>2011</anyo>
-    <duracion>101</duracion>
-    <descripcion>Con su carrera como escritor hundiendose, Eddie Morra le da un giro a su vida despues de tomar una droga que proporciona un enfoque mental asombroso.  </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="27" rubro="Accion">
-    <nombre>Sin escape</nombre>
-    <anyo>2011</anyo>
+  <Pelicula idPelicula="167" rubro="Biografia">
+    <nombre>Bill</nombre>
+    <anyo>2015</anyo>
     <duracion>106</duracion>
-    <descripcion>Cuando un adolecente encuentra su foto de nino en un sitio web de personas extraviadas. Comienza a cuestionarse todo lo que ha conocido.    </descripcion>
+    <descripcion>Bill cuenta la historia de lo que realmente sucedio durante los anos perdidos de Shakespeare...Bill Shakespeare deja a su familia y su hogar para seguir su sueno.  </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="28" rubro="Accion">
-    <nombre>Sin nombre</nombre>
-    <anyo>2009</anyo>
-    <duracion>106</duracion>
-    <descripcion>Huyendo de una pandilla, Casper aborda un tren rumbo al Norte para comenzar de cero en otro pais, Esquivando varios peligros, hace amistad con Sayra, una chica hondurena.  </descripcion>
+  <Pelicula idPelicula="168" rubro="Biografia">
+    <nombre>En busca de la felicidad</nombre>
+    <anyo>2007</anyo>
+    <duracion>112</duracion>
+    <descripcion>Bill cuenta la historia de lo que realmente sucedio durante los anos perdidos de Shakespeare...Bill Shakespeare deja a su familia y su hogar para seguir su sueno.  </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="29" rubro="Accion">
-    <nombre>Los 4 fantasticos</nombre>
-    <anyo>2015</anyo>
-    <duracion>100</duracion>
-    <descripcion>Cuatro jovenes cientificos alcanzan habilidades super-humanas cuando un experimento de tele-transportador sale mal. ahora, deben de aprender a usar sus nuevos poderes para salvar al mundo de un tirano en ascenso.  </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="30" rubro="Accion">
-    <nombre>Max</nombre>
-    <anyo>2015</anyo>
-    <duracion>111</duracion>
-    <descripcion>Un perro que ayudo a los soldados Afganistan regresa a los Estados Unidos y es adoptado por la familia de su adiestrador despues de vivir una experiencia traumatica.  </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="31" rubro="Accion">
-    <nombre>Vacaciones</nombre>
-    <anyo>2015</anyo>
-    <duracion>099</duracion>
-    <descripcion>Un maduro Rusty Griswold sorprende a su esposa, Debbie, y a sus dos hijos con una travesia de vuelta al parque de diversiones preferida de la familia en Estados Unidos, Walley World.  </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="32" rubro="Accion">
-    <nombre>Mision Imposible 5</nombre>
-    <anyo>2015</anyo>
-    <duracion>131</duracion>
-    <descripcion>Ethan y su equipo regresan para una mision aun mas imposible: erradicar al Syndicato, una organizacion internacional tan bien entrenada como ellos, y destina a destruir al IMF.  </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="33" rubro="Accion">
-    <nombre>Los Vengadores 2</nombre>
-    <anyo>2015</anyo>
-    <duracion>141</duracion>
-    <descripcion>Cuando Tony Stark intenta iniciar un programa para garantizar la paz, las cosas se ponen feas y los vengadores deberan detener al villano Ultron, que hara todo lo posible por arruinar sus planes.  </descripcion>
-    <valoracionMedia>0</valoracionMedia>
-  </Pelicula>
-  <Pelicula idPelicula="34" rubro="Accion">
-    <nombre>Lugares Oscuros</nombre>
-    <anyo>2015</anyo>
+  <Pelicula idPelicula="169" rubro="Biografia">
+    <nombre>Maradona, la mano de Dios</nombre>
+    <anyo>2007</anyo>
     <duracion>113</duracion>
-    <descripcion>Una mujer que sobrevive al brutal asesinato de su familia cuando era nina, es obligada a confrontarse con los eventos ocurridos ese dia, por una sociedad secreta obsesionada con la resolucion de crimenes famosos.  </descripcion>
+    <descripcion>Pelicula que nos relata la vida del famoso futbolista argentino Diego Armando Maradona. Desde sus inicios en el mundo del futbol y su paso a traves de su larga carrera futbolistica.  </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="35" rubro="Accion">
-    <nombre>Bajo el mismo cielo (Aloha)</nombre>
-    <anyo>2015</anyo>
-    <duracion>105</duracion>
-    <descripcion>Un reconocido instructor militar regresa al lugar donde logro su exito y se reconecta con un viejo amor, mientras inesperadamente se enamora de la responsable de la fuerza aerea que le han puesto para seguirlo.  </descripcion>
+  <Pelicula idPelicula="170" rubro="Biografia">
+    <nombre>Frida</nombre>
+    <anyo>2003</anyo>
+    <duracion>114</duracion>
+    <descripcion>Pelicula biografica de la que en vida fue la pintora mas revolucionaria tanto en ideas como en su sexualidad. Frida Kahlo, tuvo muchisimo amores, con mujeres como con hombres, en su afan de experimentar y marcar bien sus limites con conocimiento de causa.</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="36" rubro="Accion">
-    <nombre>Antes de ir</nombre>
-    <anyo>2014</anyo>
-    <duracion>095</duracion>
-    <descripcion>Una mujer pierde el tren de la 1:30 de Nueva York  Boston, tras los cual un musico de la calle pasa la noche tratando de ayudarla a hacer que pueda volver a casa antes de que llegue su marido. A lo largo de la noche aprenden el uno del otro y se enamoran.</descripcion>
+  <Pelicula idPelicula="171" rubro="Biografia">
+    <nombre>Dragon: La vida de Bruce Lee</nombre>
+    <anyo>1993</anyo>
+    <duracion>114</duracion>
+    <descripcion>Cinta biografica, que retrata de una forma clara, la verdadera historia del rey del Kung Fu: Bruce Lee. Bruce Lee, habria muerto dias antes de estrenarse la cinta mas taquillera de todos los tiempos en Artes marciales, Operacion Dragon.</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="37" rubro="Accion">
-    <nombre>El regalo</nombre>
-    <anyo>2015</anyo>
+  <Pelicula idPelicula="172" rubro="Biografia">
+    <nombre>Zapata: El sueno del heroe</nombre>
+    <anyo>2004</anyo>
+    <duracion>102</duracion>
+    <descripcion>Cinta dirigida por Alfonso Arau, la misma que esta protagonizada por la gran Lucero y Alejandro Fernandez. Desarrolla la historia de Emiliano Zapata, un hombre, valiente y aguerrido que dio su vida durante la revolucion mexicana.</descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="173" rubro="Biografia">
+    <nombre>Cleopatra</nombre>
+    <anyo>1963</anyo>
+    <duracion>233</duracion>
+    <descripcion>Cinta historica, que desarrolla lo mejor de la vida de la mas aclamada mujer egipcia: Cleopatra. Por muchos siglos ha sido recordada, y hasta la actualidad es un referente de belleza, inteligencia y caracter.  </descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="174" rubro="Biografia">
+    <nombre>El solista</nombre>
+    <anyo>2010</anyo>
+    <duracion>117</duracion>
+    <descripcion>Pelicula dirigida por Joe Wright, y que esta basada en hechos reales, pues desarrolla la historia de Nathaniel Ayers, un talentoso musico que durante sus estudios cayo en la enfermedad de la esquizofrenia y por ello no pudo terminar sus estudios.</descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="175" rubro="Biografia">
+    <nombre>Sin limites</nombre>
+    <anyo>2009</anyo>
     <duracion>108</duracion>
-    <descripcion>Simon y Robyn son un joven matrimonio cuya vida va segun lo planeado. Cuando reaparece un viejo conocido de la escuela de Simon, el no lo reconoce, pero despues de varios encuentros inesperados y extranos regalos.</descripcion>
+    <descripcion>Pelicula biografica, que desarrolla la historia de Salvador Dali, junto a otros dos estudiantes, que con el tiempo, formarian parte de los mayores exponentes de la literatura.  </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="38" rubro="Accion">
-    <nombre>Chica Final</nombre>
-    <anyo>2015</anyo>
+  <Pelicula idPelicula="176" rubro="Biografia">
+    <nombre>Ali</nombre>
+    <anyo>2002</anyo>
+    <duracion>151</duracion>
+    <descripcion>Pelicula biografica del peleador profesional Muhammad Ali, desde sus inicios en un pequeno y humilde barrio hasta su exito en las peleas mas dificiles que le toco vivir.  </descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="177" rubro="Biografia">
+    <nombre>Sugar</nombre>
+    <anyo>2008</anyo>
+    <duracion>114</duracion>
+    <descripcion>Excelente cinta biografica, que desarrolla la historia de Miguel Sugar, Santos, o como sus amigos le decian Sugar. Considerado uno de los mejores jugadores en la historia del Beisbol dominicano.  </descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="178" rubro="Biografia">
+    <nombre>Howl. La voz de una generacion</nombre>
+    <anyo>2011</anyo>
     <duracion>090</duracion>
-    <descripcion>Un grupo de jovenes adolecentes elige a la chica equivocada para su iniciacion.    </descripcion>
+    <descripcion>Pelicula Biografica de Allen Ginsberg, un icono de la cultura Beat y el movimiento Hippie. Howl (Aullido).    </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="39" rubro="Accion">
-    <nombre>Chappie</nombre>
-    <anyo>2015</anyo>
-    <duracion>120</duracion>
-    <descripcion>Luego de haber sido secuestrado por dos criminales durante sus primeras horas de vida, Chappie se convierte en el hijo de una extrana y disfuncional familia. Chappie es especial, tiene un don, es uno en un millon, un prodigio. Chappie, es un robot.</descripcion>
+  <Pelicula idPelicula="179" rubro="Biografia">
+    <nombre>Notorious</nombre>
+    <anyo>2009</anyo>
+    <duracion>123</duracion>
+    <descripcion>Biopic de la vida del famoso rapero Notorious B.I.G., un voluminoso cantante de rap neoyorquino que irrumpio con fuerza en el mundo de la musica del hip hop.  </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="40" rubro="Accion">
-    <nombre>Kingsman, el servicio secreto</nombre>
-    <anyo>2015</anyo>
-    <duracion>129</duracion>
-    <descripcion>Un veterano agente del servicio secreto de los Estados Unidos toma bajo su proteccion a un nuevo recluta que esta en carrera para convertirse en agente secreto.  </descripcion>
+  <Pelicula idPelicula="180" rubro="Biografia">
+    <nombre>Amelia</nombre>
+    <anyo>2009</anyo>
+    <duracion>112</duracion>
+    <descripcion>Hilary Swank, protagoniza a Amelia Earhart, la primera mujer que batio records de vuelo, y que intento sobrevolar todo el Oceano Pacifico, en el ano 1937.  </descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="41" rubro="Accion">
-    <nombre>El invitado</nombre>
+  <Pelicula idPelicula="181" rubro="Biografia">
+    <nombre>Michael Jackson: La leyenda continua</nombre>
+    <anyo>1988</anyo>
+    <duracion>055</duracion>
+    <descripcion>Documental creado durante la vida del rey del pop, a traves de pequenos fragmentos de conciertos, presentaciones, entrevistas, donde los especialistas opinan sobre el.  </descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="182" rubro="Biografia">
+    <nombre>Gandhi</nombre>
+    <anyo>1982</anyo>
+    <duracion>184</duracion>
+    <descripcion>En el ano 1982, esta pelicula es merecedora a 8 oscares, y obtuvo 11 nominaciones. Pelicula biografica sobre la vida de Mahatma Gandh, un gran hombre, con ferviente creencia en la paz y en la capacidad de ser escuchados sin necesidad de guerras y muertes.</descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="183" rubro="Biografia">
+    <nombre>12 anos de esclavitud</nombre>
+    <anyo>2013</anyo>
+    <duracion>133</duracion>
+    <descripcion>Basada en la novela homonima de Solomon Northup, inspirada en hechos reales. Tras beber dos copas con desconocidos, el musico negro de New York, Solomon Northup es vendido como esclavo en el sur de Louisiana.  </descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="184" rubro="Biografia">
+    <nombre>Shine</nombre>
+    <anyo>1997</anyo>
+    <duracion>106</duracion>
+    <descripcion>Basada en hechos reales, narra la historia de David Helfgott, un brillante y virtuoso pianista australiano cuya insoportable presion paterna le traumatizo hasta el punto de alcanzar estados de demencia y sufrir internamiento en un asilo.</descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="185" rubro="Biografia">
+    <nombre>Mandela: Del mito al hombre</nombre>
     <anyo>2014</anyo>
-    <duracion>099</duracion>
-    <descripcion>Los Peterson siguen llorando el fallecimiento de su hijo Caleb en Afganistan, En pleno duelo, David irrumpe en el hogar familiar y conquista a cada uno de sus miembros hasta que uno de ellos empieza a intuir que David no es quien parece ser.</descripcion>
+    <duracion>139</duracion>
+    <descripcion>Biopic que narra la historia de Nelson Mandela, desde sus inicios como abogado en el Congreso Nacional de Africa en 1940, cuando la ley Apartheid estaba expandida.</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
-  <Pelicula idPelicula="42" rubro="Accion">
-    <nombre>Dracula</nombre>
-    <anyo>2014</anyo>
-    <duracion>092</duracion>
-    <descripcion>La historia explora el origen de Dracula, mezcla de vampirismo y la historia real del Principe Vlad El Empalador - quien inspiro al Dracula de Bram Stoker -, retratandolo como un heroe en una tragica historia de amor en una oscura epoca de magia y guerra.</descripcion>
+  <Pelicula idPelicula="187" rubro="Biografia">
+    <nombre>test</nombre>
+    <anyo>1990</anyo>
+    <duracion>150</duracion>
+    <descripcion>gergtwergberge  ehewagvesvfg  vrgywe</descripcion>
+    <valoracionMedia>0</valoracionMedia>
+  </Pelicula>
+  <Pelicula idPelicula="188" rubro="Biografia">
+    <nombre>test nombre</nombre>
+    <anyo>1990</anyo>
+    <duracion>150</duracion>
+    <descripcion>desccripcion larrgaaaa</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
 </com.company.ListaPeliculas>

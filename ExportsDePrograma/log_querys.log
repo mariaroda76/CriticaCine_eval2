@@ -10,3 +10,13 @@ dic. 06, 2021 4:21:49 P. M. com.company.Main modificarGeneral
 INFO: update value /Peliculas/Pelicula[@idPelicula= '5']/duracion with data('200') 
 dic. 06, 2021 4:24:54 P. M. com.company.Main modificarGeneral
 INFO: update value /Peliculas/Pelicula[@idPelicula= '9']/valoracionMedia with data('10') 
+dic. 06, 2021 5:46:59 P. M. com.company.Main insertarPelicula
+INFO: for $pel in doc('file:///C:/Users/Fran/Desktop/maria/curso3/AD/PROYECTO_JOKIN_EVAL2/CriticaCine/CriticaCine_eval2/temp/Temp.xml') /Peliculas/Pelicula return update insert $pel into /Peliculas
+dic. 06, 2021 5:48:08 P. M. com.company.Main modificarGeneral
+INFO: update value /Peliculas/Pelicula[@idPelicula= '15']/@rubro with data('Biografia') 
+dic. 06, 2021 5:48:21 P. M. com.company.Main modificarGeneral
+INFO: update value /Peliculas/Pelicula[@idPelicula= '2']/@rubro with data('Biografia') 
+dic. 06, 2021 5:48:26 P. M. com.company.Main borrarrGeneral
+INFO: update delete /Peliculas/Pelicula[@idPelicula= '15']
+dic. 06, 2021 5:51:13 P. M. com.company.Main modificarGeneral
+INFO: update value /Peliculas/Pelicula[@idPelicula= '20']/valoracionMedia with data('10') 
