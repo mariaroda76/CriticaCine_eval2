@@ -1,9 +1,9 @@
 <Peliculas>
-  <Pelicula idPelicula="186" rubro="Biografia">
+  <Pelicula idPelicula="187" rubro="Biografia">
     <nombre>test</nombre>
-    <anyo>1999</anyo>
-    <duracion>015</duracion>
-    <descripcion>desc5</descripcion>
+    <anyo>1990</anyo>
+    <duracion>150</duracion>
+    <descripcion>gergtwergberge  ehewagvesvfg  vrgywe</descripcion>
     <valoracionMedia>0</valoracionMedia>
   </Pelicula>
 </Peliculas>

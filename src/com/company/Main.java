@@ -1360,7 +1360,7 @@ public class Main {
                     String rubro = "";
                     int anyo =0;
                     while (fallido) {
-                        System.out.println("Ingresa rubropara la nueva pelicula:");
+                        System.out.println("Ingresa Genero:");
                         String genero;
 
                         System.out.println("\nRubros:");
@@ -1423,7 +1423,7 @@ public class Main {
 
                     //ingreso de año
                     while (fallido) {
-                        System.out.println("Ingresa año de estreno nueva pelicula:");
+                        System.out.println("Ingresa año a patir del cual se estrena la pelicula:");
 
                         Scanner scan = new Scanner(System.in);
                         if (scan.hasNextInt()) {

@@ -107,8 +107,8 @@ public class Pelicula implements Serializable {
     }
 
     public void imprimir() {
-        System.out.println("ID: " + idPelicula + ". " + nombre + " Año de estreno: " + anyo +
-                "\nGenero: " + rubro.name() + "Duracion: " + duracion +
+        System.out.println("ID: " + idPelicula + " >. " + nombre + ". Año de estreno: " + anyo +
+                "\nGenero: " + rubro.name() + ". Duracion: " + duracion +
                 "\nValoracion Actual: " + valoracionMedia +
                 "\nDescripcion: " + descripcion) ;
 
@@ -117,7 +117,8 @@ public class Pelicula implements Serializable {
 
     public void imprimirMedias() {
 
-        System.out.println("ID: " + idPelicula + ". " + nombre + " Valoracion Media: " + valoracionMedia);
+        System.out.println("ID: " + idPelicula + ". " +
+                nombre + " Valoracion Media: " + valoracionMedia);
 
 
     }
